@@ -5,11 +5,12 @@ description: >
   from Garoa, types "/nova-marca", or says "criar meu design system", "adaptar o Garoa
   para minha marca", "trocar as cores e a fonte do DS", "começar um DS novo", "rebrand
   the design system". It interviews a non-developer designer with 8 simple questions
-  (accepting screenshots and brand PDFs), shows a summary for approval, then rebrands
-  their copy of Garoa in Figma: color scales, font, corners, logo, and a contrast check
-  in light and dark.
+  (accepting screenshots and brand PDFs), shows a summary for approval, then creates a
+  new Figma file in their drafts and builds the design system there from the Garoa
+  blueprint (variables, text and shadow styles, Icon, Button, Input, Tag, Card) with
+  the company's colors and fonts, checking contrast in light and dark.
 metadata:
-  version: "0.1.0"
+  version: "0.2.0"
 ---
 
 # /nova-marca — criar o DS da empresa a partir do Garoa
@@ -18,12 +19,12 @@ Antes de tudo, carregar a skill `garoa-guardiao` e seguir as regras dela. A pess
 
 ## Passo 0 — Preparar
 
-1. Dar boas-vindas em 2 frases: o que vai acontecer ("vou te fazer 8 perguntas e, no fim, seu DS estará pronto no Figma") e quanto tempo leva (cerca de 15 minutos).
+1. Dar boas-vindas em 2 frases: o que vai acontecer ("vou te fazer 8 perguntas e, no fim, eu crio um arquivo novo nos seus rascunhos do Figma com o seu DS pronto") e quanto tempo leva (cerca de 15 minutos de conversa e alguns minutos de montagem).
 2. Conferir se a conexão com o Figma está ativa (tentar `whoami`). Se não estiver, explicar como conectar o Figma ao Claude em 3 passos e parar.
 3. Perguntar qual o plano do Figma (gratuito ou pago). Explicar em uma frase: no gratuito o DS funciona dentro de um único arquivo; no pago ele vira biblioteca para outros arquivos.
-4. Pedir o link da cópia do Garoa. Se a pessoa ainda não tiver, explicar: abrir o link do Garoa que recebeu, clicar em "Duplicar" e colar aqui o link da cópia. Se o link tiver a chave `PoNCxaLwAHqt2tX9DrMtkC`, é o original: recusar com gentileza e pedir a cópia.
-5. Rodar o inventário (receita 1 de `figma-receitas.md`). Se não for uma cópia do Garoa, avisar e parar.
-6. **Conferir a fonte de ícones** (receita 9). Os ícones do DS são letras da fonte Material Symbols Rounded; sem ela, aparecem palavras como "arrow_back" no lugar do desenho. Se faltar, recomendar a instalação antes de seguir, em passos simples:
+4. Não é preciso duplicar o Garoa: o plugin cria o arquivo e monta tudo. Se a pessoa já tiver uma cópia do Garoa e preferir usá-la, seguir o caminho antigo (receitas 2, 6 e 7 de `figma-receitas.md` na cópia; nunca no original `PoNCxaLwAHqt2tX9DrMtkC`).
+5. Usar o plano do Figma devolvido pelo `whoami`. Se houver mais de um plano (time ou organização), perguntar em qual criar o arquivo.
+6. **Conferir a fonte de ícones** (receita 9, rodada em qualquer arquivo da pessoa ou logo depois de criar o arquivo novo). Os ícones do DS são letras da fonte Material Symbols Rounded; sem ela, aparecem palavras como "arrow_back" no lugar do desenho. Se faltar, recomendar a instalação antes de seguir, em passos simples:
    1. Abrir fonts.google.com e buscar "Material Symbols Rounded".
    2. Clicar em "Get font" e depois em "Download all".
    3. Abrir o arquivo baixado e instalar a fonte (no Mac, dois cliques e "Instalar"; no Windows, botão direito e "Instalar").
@@ -62,25 +63,32 @@ Mostrar numa tabela curta:
 
 Depois, se possível, mostrar uma prévia: um botão primary, um card e um campo com as cores novas (pode ser em texto, com os hex, se não der para desenhar). Perguntar: "Posso criar seu DS com isso?". Só seguir com um sim.
 
-## Passo 4 — Aplicar
+## Passo 4 — Criar o arquivo e montar o DS
 
-Na cópia, nesta ordem, mostrando o progresso em uma linha por etapa:
+Os scripts ficam em `montagem/`. Cada etapa é uma chamada do `use_figma`; mostrar o progresso em uma linha por etapa ("Cores e tokens prontos", "Botões prontos"…). Carregar antes a skill `figma-use` do conector do Figma e, se existir, a `figma-create-new-file`.
 
-1. Cores: receita 2, uma família por vez. Ao trocar PRIMARIO, a receita já recalcula `PRIMARIO/400-25`, a cor das sombras.
-2. Fonte: receita 6 (títulos e, se mudou, texto corrido).
-3. Cantos: receita 7, se a pessoa escolheu algo diferente do padrão.
-4. Nome: trocar "Garoa" pelo nome do DS nos textos da página `00 · Capa` (carregar a fonte antes de editar texto). O nome do arquivo a pessoa troca à mão: explicar onde.
-5. Logo: se a pessoa colou o SVG do logo, usar `figma.createNodeFromSvg` numa página `36 · Logo` nova e ajustar os tokens `logo/*` para as cores da marca. Se não, deixar a orientação para trocar depois. As páginas `35 · Marca` e `36 · Logo Garoa` são do autor do Garoa: perguntar se pode apagá-las.
-6. ID do Google Tag Manager: se a pessoa tiver, registrar na página de decisões.
+1. **Criar o arquivo:** `create_new_file` com o nome "<Nome do DS>" e o plano do Passo 0, depois `create_session` com a chave do arquivo novo.
+2. **Variáveis (01):** enviar o `01-variaveis.js` com o conteúdo de `dados-variaveis.txt` no lugar do marcador entre crases da linha `DADOS`. Não editar os dados à mão: a marca entra no passo 8.
+3. **Estilos (02):** enviar `02-estilos.js` como está.
+4. **Icon (10):** enviar `00-ajudantes.js` seguido de `10-icon.js`, num único código.
+5. **Button (11):** `00-ajudantes.js` + `11-button.js`.
+6. **Input (12):** `00-ajudantes.js` + `12-input.js`.
+7. **Tag (13) e Card (14):** `00-ajudantes.js` + `13-tag.js`; depois `00-ajudantes.js` + `14-card.js`. Antes, trocar os textos de exemplo (`EXEMPLO_TAG` e `EXEMPLO`) por textos do negócio da pessoa (ex.: "Caixa kraft", "Embalagem sob medida").
+8. **Marca e páginas (20):** preencher `MARCA` em `20-marca.js` com o plano aprovado (nome, empresa, famílias de cor trocadas, fontes e decisões) e enviar. Ele recalcula a cor da sombra, troca as fontes se tiverem os 4 pesos, cria a capa, a página de decisões e ordena as páginas.
+9. **Cantos:** se a pessoa escolheu algo diferente do padrão, rodar a receita 7 de `figma-receitas.md`.
+10. **Logo:** se a pessoa colou o SVG do logo, usar `figma.createNodeFromSvg` numa página `36 · Logo` e ajustar os tokens `logo/*`. Se não, deixar a orientação para trocar depois.
+
+Se uma etapa der erro, corrigir e rodar de novo só aquela etapa: todos os scripts podem ser repetidos com segurança (reaproveitam ou recriam o que já existe). Os componentes dependem do Icon; o Card depende do Button.
 
 ## Passo 5 — Conferir e entregar
 
-1. Rodar a receita 4 (contraste) e a varredura (receita 3) em 2 ou 3 componentes (Button, Input, Card).
-2. Tirar capturas do Button e do Card em light e dark (receita 5) e mostrar.
-3. Registrar as decisões da marca (receita 8): cores e papéis, fontes, cantos, plano do Figma.
+1. Enviar `30-conferir.js`: confere todas as camadas dos componentes (cores, raios e textos soltos), o contraste dos pares principais em claro e escuro e devolve uma captura do kit nos dois temas. Mostrar a captura para a pessoa.
+2. Se aparecer valor solto ou contraste abaixo do mínimo, explicar em linguagem simples e corrigir antes de entregar.
+3. As decisões principais já estão na página `03 · Decisões` (passo 8). Acrescentar as que surgirem depois com a receita 8.
 4. Encerrar com uma lista curta do que a pessoa faz agora:
-   - renomear o arquivo;
+   - abrir o arquivo pelo link (ele está nos rascunhos do Figma);
    - no plano pago: publicar a biblioteca (Assets → Publicar);
+   - por enquanto o DS tem o kit base (Icon, Button, Input, Tag, Card); os outros componentes do Garoa chegam pelo `/novo-componente`;
    - revisar as telas de exemplo e trocar os textos pelo tema da empresa;
    - usar `/validar` em qualquer componente que desenhar e `/novo-componente` quando faltar algo.
 5. Não falar de GitHub nem de código agora. Isso vem depois que o DS estiver estável.
@@ -89,4 +97,5 @@ Na cópia, nesta ordem, mostrando o progresso em uma linha por etapa:
 
 - Fonte sem algum peso: oferecer a mais parecida que tenha os 4 pesos ou manter a do Garoa.
 - Cor da marca sem contraste: mantê-la em detalhes (bordas, ícones grandes, ilustrações) e propor um tom mais escuro para texto e botões.
-- Erro do Figma no meio da troca: parar, contar o que já foi aplicado e o que falta, e perguntar se tenta de novo.
+- Erro do Figma no meio da montagem: parar, contar o que já foi criado e o que falta, e rodar de novo só a etapa que falhou.
+- Fonte de ícones ausente: a montagem funciona, mas os ícones aparecem como palavras até a fonte ser instalada.

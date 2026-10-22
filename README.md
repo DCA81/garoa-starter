@@ -2,13 +2,13 @@
 
 Crie o design system da sua empresa no Figma, mesmo sem experiência, a partir do **Garoa**, o design system de Daniel Costa.
 
-Você responde algumas perguntas (ou manda prints da sua marca), o Claude mostra um resumo e, com o seu "sim", troca cores, fonte, cantos e logo numa cópia do Garoa. Depois, ele avalia os componentes que você desenhar e cria componentes novos a partir de uma descrição.
+Você responde algumas perguntas (ou manda prints da sua marca), o Claude mostra um resumo e, com o seu "sim", cria um arquivo novo nos seus rascunhos do Figma com o design system pronto: cores, tipografia, sombras e os componentes Icon, Button, Input, Tag e Card, já com a sua marca, em claro e escuro. Depois, ele avalia os componentes que você desenhar e cria componentes novos a partir de uma descrição.
 
 ## O que vem no plugin
 
 | Comando | O que faz |
 | --- | --- |
-| `/nova-marca` | 8 perguntas simples → resumo → cria o DS da sua marca na sua cópia do Garoa, com light e dark e contraste conferido |
+| `/nova-marca` | 8 perguntas simples → resumo → cria um arquivo novo no seu Figma com o DS da sua marca, em claro e escuro e com contraste conferido |
 | `/validar` | Avalia um componente em 9 pontos (tokens, estados, temas, construção, acessibilidade, analytics, duplicidade, decisões, documentação) e oferece corrigir |
 | `/novo-componente` | Cria um componente a partir de uma descrição, usando só os tokens e componentes do seu DS |
 
@@ -19,7 +19,6 @@ Ele também traz o **Guardião do Garoa**: as regras e a estrutura do Garoa, que
 1. **Plano pago do Claude** (Pro, Max, Team ou Enterprise). Plugins não funcionam no plano gratuito.
 2. **Figma conectado ao Claude.** O plugin já traz a conexão; na primeira vez, o Claude pede para você entrar na sua conta do Figma.
 3. **Fonte de ícones instalada:** os ícones do DS usam a fonte gratuita **Material Symbols Rounded**, do Google Fonts. O plugin confere se ela existe no seu Figma e, se faltar, ensina a instalar em 5 passos.
-4. **Uma cópia do Garoa.** Abra o link do Garoa que você recebeu, clique em **Duplicar** e guarde o link da sua cópia.
 
 Plano do Figma: no gratuito, o DS funciona dentro de um único arquivo. Para usá-lo como biblioteca em outros arquivos, é preciso um plano pago do Figma.
 
@@ -38,7 +37,7 @@ Plano do Figma: no gratuito, o DS funciona dentro de um único arquivo. Para us�
 2. Desenhou um componente? Copie o link dele e digite `/validar`.
 3. Faltou algo? Digite `/novo-componente` e descreva o que precisa.
 
-O Claude nunca altera nada sem mostrar antes e pedir sua confirmação, e nunca mexe no arquivo original do Garoa.
+Não é preciso duplicar nenhum arquivo: o plugin cria o arquivo novo nos seus rascunhos. Ele nunca altera nada sem mostrar antes e pedir sua confirmação.
 
 ## O que fica para depois
 
@@ -55,4 +54,4 @@ MIT © 2026 Daniel da Costa Alexandre. Você pode usar, copiar e modificar, incl
 ## Links
 
 - Site do Garoa: https://garoa-design-system.vercel.app
-- Versão: 0.1.3
+- Versão: 0.2.0

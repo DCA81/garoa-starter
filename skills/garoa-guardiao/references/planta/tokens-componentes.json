@@ -1,0 +1,2294 @@
+{
+ "name": "Componentes",
+ "modes": [
+  "Valor"
+ ],
+ "vars": [
+  [
+   "card/bg",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/surface/raised"
+   ],
+   "Card · Fundo"
+  ],
+  [
+   "card/border",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/border/default"
+   ],
+   "Card · Cor da borda"
+  ],
+  [
+   "card/radius",
+   "FLOAT",
+   "CORNER_RADIUS",
+   [
+    "@Semânticos::radius/default"
+   ],
+   "Card · Cantos"
+  ],
+  [
+   "card/border-width",
+   "FLOAT",
+   "STROKE_FLOAT",
+   [
+    "@Semânticos::border/width/default"
+   ],
+   "Card · Espessura da borda"
+  ],
+  [
+   "card/padding",
+   "FLOAT",
+   "GAP",
+   [
+    "@Semânticos::space/inset"
+   ],
+   "Card · Padding interno"
+  ],
+  [
+   "card/gap",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/24"
+   ],
+   "Card · Espaço entre itens"
+  ],
+  [
+   "popover/bg",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/surface/overlay"
+   ],
+   "Popover · Fundo"
+  ],
+  [
+   "popover/border",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/border/default"
+   ],
+   "Popover · Cor da borda"
+  ],
+  [
+   "popover/icon",
+   "COLOR",
+   "SHAPE_FILL,STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/icon/default"
+   ],
+   "Popover · Cor do ícone"
+  ],
+  [
+   "popover/radius",
+   "FLOAT",
+   "CORNER_RADIUS",
+   [
+    "@Semânticos::radius/default"
+   ],
+   "Popover · Cantos"
+  ],
+  [
+   "popover/border-width",
+   "FLOAT",
+   "STROKE_FLOAT",
+   [
+    "@Semânticos::border/width/default"
+   ],
+   "Popover · Espessura da borda"
+  ],
+  [
+   "popover/padding",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/12"
+   ],
+   "Popover · Padding interno"
+  ],
+  [
+   "popover/gap",
+   "FLOAT",
+   "GAP",
+   [
+    "@Semânticos::space/stack"
+   ],
+   "Popover · Espaço entre itens"
+  ],
+  [
+   "popover/offset",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/4"
+   ],
+   "Popover · Distância até o gatilho"
+  ],
+  [
+   "popover/actions-gap",
+   "FLOAT",
+   "GAP",
+   [
+    "@Semânticos::space/inline"
+   ],
+   "Popover · Espaço entre os botões de ação"
+  ],
+  [
+   "select-menu/bg",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/surface/overlay"
+   ],
+   "Select (lista aberta) · Fundo"
+  ],
+  [
+   "select-menu/border",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/border/default"
+   ],
+   "Select (lista aberta) · Cor da borda"
+  ],
+  [
+   "select-menu/radius",
+   "FLOAT",
+   "CORNER_RADIUS",
+   [
+    "@Semânticos::radius/default"
+   ],
+   "Select (lista aberta) · Cantos"
+  ],
+  [
+   "select-menu/border-width",
+   "FLOAT",
+   "STROKE_FLOAT",
+   [
+    "@Semânticos::border/width/default"
+   ],
+   "Select (lista aberta) · Espessura da borda"
+  ],
+  [
+   "select-menu/padding",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/12"
+   ],
+   "Select (lista aberta) · Padding interno"
+  ],
+  [
+   "select-menu/gap",
+   "FLOAT",
+   "GAP",
+   [
+    "@Semânticos::space/inline"
+   ],
+   "Select (lista aberta) · Espaço entre itens"
+  ],
+  [
+   "select-menu/offset",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/4"
+   ],
+   "Select (lista aberta) · Distância até o gatilho"
+  ],
+  [
+   "option/bg-hover",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/surface/hover"
+   ],
+   "Option · Fundo no hover e no focus"
+  ],
+  [
+   "option/bg-selected",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/surface/selected"
+   ],
+   "Option · Fundo do item selecionado"
+  ],
+  [
+   "option/fg",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/text/primary"
+   ],
+   "Option · Texto"
+  ],
+  [
+   "option/fg-disabled",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/text/disabled"
+   ],
+   "Option · Texto desabilitado"
+  ],
+  [
+   "option/border-focus",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/border/action"
+   ],
+   "Option · Borda de foco"
+  ],
+  [
+   "option/icon",
+   "COLOR",
+   "SHAPE_FILL,STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/icon/action"
+   ],
+   "Option · Cor do ícone"
+  ],
+  [
+   "option/height",
+   "FLOAT",
+   "WIDTH_HEIGHT",
+   [
+    "@Primitivos::space/48"
+   ],
+   "Option · Altura mínima"
+  ],
+  [
+   "option/padding-x",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/12"
+   ],
+   "Option · Padding horizontal"
+  ],
+  [
+   "option/padding-y",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/12"
+   ],
+   "Option · Padding vertical"
+  ],
+  [
+   "option/gap",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/12"
+   ],
+   "Option · Espaço entre itens"
+  ],
+  [
+   "option/radius",
+   "FLOAT",
+   "CORNER_RADIUS",
+   [
+    "@Semânticos::radius/sm"
+   ],
+   "Option · Cantos"
+  ],
+  [
+   "option/border-width-focus",
+   "FLOAT",
+   "STROKE_FLOAT",
+   [
+    "@Semânticos::border/width/strong"
+   ],
+   "Option · Espessura da borda de foco"
+  ],
+  [
+   "modal/bg",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/surface/modal"
+   ],
+   "Modal · Fundo"
+  ],
+  [
+   "modal/backdrop",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/backdrop"
+   ],
+   "Modal · Fundo escurecido atrás do diálogo"
+  ],
+  [
+   "modal/radius",
+   "FLOAT",
+   "CORNER_RADIUS",
+   [
+    "@Semânticos::radius/default"
+   ],
+   "Modal · Cantos"
+  ],
+  [
+   "modal/padding",
+   "FLOAT",
+   "GAP",
+   [
+    "@Semânticos::space/inset"
+   ],
+   "Modal · Padding interno"
+  ],
+  [
+   "modal/gap",
+   "FLOAT",
+   "GAP",
+   [
+    "@Semânticos::space/stack"
+   ],
+   "Modal · Espaço entre itens"
+  ],
+  [
+   "modal/actions-gap",
+   "FLOAT",
+   "GAP",
+   [
+    "@Semânticos::space/inline"
+   ],
+   "Modal · Espaço entre os botões de ação"
+  ],
+  [
+   "modal/width",
+   "FLOAT",
+   "WIDTH_HEIGHT",
+   [
+    440
+   ],
+   "Modal · Largura do diálogo"
+  ],
+  [
+   "button/primary/bg",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/action/primary"
+   ],
+   "Fundo do Button primary (default, focus, loading)"
+  ],
+  [
+   "button/primary/border",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/border/action"
+   ],
+   "Borda do Button primary"
+  ],
+  [
+   "button/gap",
+   "FLOAT",
+   "GAP",
+   [
+    "@Semânticos::space/inline"
+   ],
+   "Espaço entre ícone e texto"
+  ],
+  [
+   "button/padding-x",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/16"
+   ],
+   "Padding horizontal do Button"
+  ],
+  [
+   "button/padding-y",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/12"
+   ],
+   "Padding vertical do Button"
+  ],
+  [
+   "button/radius",
+   "FLOAT",
+   "CORNER_RADIUS",
+   [
+    "@Semânticos::radius/default"
+   ],
+   "Cantos do Button"
+  ],
+  [
+   "button/primary/border-width",
+   "FLOAT",
+   "STROKE_FLOAT",
+   [
+    "@Primitivos::border/width/100"
+   ],
+   "Espessura da borda do Button primary default e hover"
+  ],
+  [
+   "button/min-height",
+   "FLOAT",
+   "WIDTH_HEIGHT",
+   [
+    "@Semânticos::space/target"
+   ],
+   "Altura mínima (área de toque)"
+  ],
+  [
+   "button/icon-size",
+   "FLOAT",
+   "WIDTH_HEIGHT",
+   [
+    "@Semânticos::icon/size/md"
+   ],
+   "Tamanho dos ícones do Button"
+  ],
+  [
+   "button/primary/fg",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/text/inverse"
+   ],
+   "Texto do Button primary"
+  ],
+  [
+   "button/primary/bg-hover",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/action/hover"
+   ],
+   "Fundo do Button primary no hover e press"
+  ],
+  [
+   "button/focus-ring",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/text/primary"
+   ],
+   "Cor do anel de foco (navegação por teclado)"
+  ],
+  [
+   "button/focus-ring-offset",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/4"
+   ],
+   "Distância entre o anel de foco e o botão"
+  ],
+  [
+   "button/focus-ring-width",
+   "FLOAT",
+   "STROKE_FLOAT",
+   [
+    "@Semânticos::border/width/strong"
+   ],
+   "Espessura do anel de foco"
+  ],
+  [
+   "button/bg-disabled",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/bg/disabled"
+   ],
+   "Fundo do Button desabilitado (todas as variantes)"
+  ],
+  [
+   "button/fg-disabled",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/text/disabled"
+   ],
+   "Texto do Button desabilitado"
+  ],
+  [
+   "button/secondary/border",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/border/action"
+   ],
+   "Borda do Button secondary"
+  ],
+  [
+   "button/border-width",
+   "FLOAT",
+   "STROKE_FLOAT",
+   [
+    "@Semânticos::border/width/strong"
+   ],
+   "Espessura da borda do Button (secondary, ghost e estados)"
+  ],
+  [
+   "button/secondary/fg",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/text/primary"
+   ],
+   "Texto do Button secondary"
+  ],
+  [
+   "button/secondary/bg-hover",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/bg/hover"
+   ],
+   "Fundo do Button secondary no hover e press"
+  ],
+  [
+   "button/secondary/border-hover",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/text/hover"
+   ],
+   "Borda do Button secondary no hover e press"
+  ],
+  [
+   "button/secondary/fg-hover",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/text/hover"
+   ],
+   "Texto do Button secondary no hover e press"
+  ],
+  [
+   "button/ghost/fg",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/text/primary"
+   ],
+   "Texto do Button ghost"
+  ],
+  [
+   "button/ghost/bg-hover",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/bg/hover"
+   ],
+   "Fundo do Button ghost no hover e press"
+  ],
+  [
+   "button/ghost/border-hover",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/text/hover"
+   ],
+   "Borda do Button ghost no hover e press"
+  ],
+  [
+   "button/ghost/fg-hover",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/text/hover"
+   ],
+   "Texto do Button ghost no hover e press"
+  ],
+  [
+   "input/gap",
+   "FLOAT",
+   "GAP",
+   [
+    "@Semânticos::space/inline"
+   ],
+   "Espaço entre label, campo e helper"
+  ],
+  [
+   "input/label",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/text/primary"
+   ],
+   "Cor do label"
+  ],
+  [
+   "input/border",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/border/default"
+   ],
+   "Borda do campo"
+  ],
+  [
+   "input/control-gap",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/12"
+   ],
+   "Espaço entre ícones e valor dentro do campo"
+  ],
+  [
+   "input/padding-x",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/12"
+   ],
+   "Padding horizontal do campo"
+  ],
+  [
+   "input/large/padding-y",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/12"
+   ],
+   "Padding vertical do campo large"
+  ],
+  [
+   "input/radius",
+   "FLOAT",
+   "CORNER_RADIUS",
+   [
+    "@Semânticos::radius/default"
+   ],
+   "Cantos do campo"
+  ],
+  [
+   "input/border-width",
+   "FLOAT",
+   "STROKE_FLOAT",
+   [
+    "@Semânticos::border/width/default"
+   ],
+   "Espessura da borda do campo"
+  ],
+  [
+   "input/min-height",
+   "FLOAT",
+   "WIDTH_HEIGHT",
+   [
+    "@Semânticos::space/target"
+   ],
+   "Altura mínima do campo (área de toque)"
+  ],
+  [
+   "input/icon-size",
+   "FLOAT",
+   "WIDTH_HEIGHT",
+   [
+    "@Semânticos::icon/size/md"
+   ],
+   "Tamanho dos ícones do campo"
+  ],
+  [
+   "input/placeholder",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/text/placeholder"
+   ],
+   "Texto de placeholder (campo vazio)"
+  ],
+  [
+   "input/helper",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/text/secondary"
+   ],
+   "Texto de apoio (helper)"
+  ],
+  [
+   "input/fg",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/text/primary"
+   ],
+   "Texto digitado"
+  ],
+  [
+   "input/border-hover",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/text/primary"
+   ],
+   "Borda do campo outline no hover"
+  ],
+  [
+   "input/focus-ring",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/text/primary"
+   ],
+   "Cor do anel de foco"
+  ],
+  [
+   "input/focus-ring-offset",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/4"
+   ],
+   "Distância entre o anel de foco e o campo"
+  ],
+  [
+   "input/focus-ring-width",
+   "FLOAT",
+   "STROKE_FLOAT",
+   [
+    "@Semânticos::border/width/strong"
+   ],
+   "Espessura do anel de foco"
+  ],
+  [
+   "input/fg-disabled",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/text/disabled"
+   ],
+   "Texto do campo desabilitado"
+  ],
+  [
+   "input/border-success",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/sucesso/default"
+   ],
+   "Borda do campo no estado success"
+  ],
+  [
+   "input/helper-success",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/text/primary"
+   ],
+   "Helper no estado success (texto na cor principal por contraste; o status aparece no ícone e na borda)"
+  ],
+  [
+   "input/border-info",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/text/primary"
+   ],
+   "Borda do campo no estado info"
+  ],
+  [
+   "input/helper-info",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/text/primary"
+   ],
+   "Helper no estado info"
+  ],
+  [
+   "input/border-warning",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/alerta/default"
+   ],
+   "Borda do campo no estado warning"
+  ],
+  [
+   "input/helper-warning",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/text/primary"
+   ],
+   "Helper no estado warning (texto na cor principal por contraste; o status aparece no ícone e na borda)"
+  ],
+  [
+   "input/border-error",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/erro/default"
+   ],
+   "Borda do campo no estado error"
+  ],
+  [
+   "input/helper-error",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/text/primary"
+   ],
+   "Helper no estado error (texto na cor principal por contraste; o status aparece no ícone e na borda)"
+  ],
+  [
+   "input/medium/padding-y",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/8"
+   ],
+   "Padding vertical do campo medium"
+  ],
+  [
+   "input/filled/bg",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/bg/default"
+   ],
+   "Fundo do campo filled"
+  ],
+  [
+   "input/filled/bg-hover",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/bg/hover"
+   ],
+   "Fundo do campo filled no hover"
+  ],
+  [
+   "input/filled/border-hover",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/text/hover"
+   ],
+   "Borda do campo filled no hover"
+  ],
+  [
+   "input/filled/fg-hover",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/text/hover"
+   ],
+   "Texto do campo filled no hover"
+  ],
+  [
+   "input/filled/bg-disabled",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/bg/disabled"
+   ],
+   "Fundo do campo filled desabilitado"
+  ],
+  [
+   "checkbox/size",
+   "FLOAT",
+   "WIDTH_HEIGHT",
+   [
+    "@Semânticos::icon/size/sm"
+   ],
+   "Checkbox · Tamanho do quadrado"
+  ],
+  [
+   "checkbox/radius",
+   "FLOAT",
+   "CORNER_RADIUS",
+   [
+    "@Semânticos::radius/sm"
+   ],
+   "Checkbox · Cantos"
+  ],
+  [
+   "checkbox/border-width",
+   "FLOAT",
+   "STROKE_FLOAT",
+   [
+    "@Semânticos::border/width/strong"
+   ],
+   "Checkbox · Espessura da borda"
+  ],
+  [
+   "checkbox/border",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/border/action"
+   ],
+   "Checkbox · Borda"
+  ],
+  [
+   "checkbox/border-disabled",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/border/default"
+   ],
+   "Checkbox · Borda desabilitada"
+  ],
+  [
+   "checkbox/bg-hover",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/surface/hover"
+   ],
+   "Checkbox · Fundo no hover (desmarcado)"
+  ],
+  [
+   "checkbox/bg-checked",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL,STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/action/primary"
+   ],
+   "Checkbox · Fundo e borda marcado"
+  ],
+  [
+   "checkbox/bg-checked-hover",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL,STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/action/hover"
+   ],
+   "Checkbox · Fundo marcado no hover"
+  ],
+  [
+   "checkbox/bg-disabled",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL,STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/bg/disabled"
+   ],
+   "Checkbox · Fundo desabilitado"
+  ],
+  [
+   "checkbox/gap",
+   "FLOAT",
+   "GAP",
+   [
+    "@Semânticos::space/inline"
+   ],
+   "Checkbox · Espaço entre controle e label"
+  ],
+  [
+   "checkbox/label",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/text/primary"
+   ],
+   "Checkbox · Texto do label"
+  ],
+  [
+   "checkbox/label-disabled",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/text/disabled"
+   ],
+   "Checkbox · Texto do label desabilitado"
+  ],
+  [
+   "checkbox/focus-ring",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/text/primary"
+   ],
+   "Checkbox · Anel de foco"
+  ],
+  [
+   "checkbox/focus-ring-width",
+   "FLOAT",
+   "STROKE_FLOAT",
+   [
+    "@Semânticos::border/width/strong"
+   ],
+   "Checkbox · Espessura do anel de foco"
+  ],
+  [
+   "checkbox/focus-ring-offset",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/4"
+   ],
+   "Checkbox · Distância do anel de foco"
+  ],
+  [
+   "radio/size",
+   "FLOAT",
+   "WIDTH_HEIGHT",
+   [
+    "@Semânticos::icon/size/sm"
+   ],
+   "Radio · Tamanho do círculo"
+  ],
+  [
+   "radio/radius",
+   "FLOAT",
+   "CORNER_RADIUS",
+   [
+    "@Primitivos::radius/full"
+   ],
+   "Radio · Cantos (círculo)"
+  ],
+  [
+   "radio/border-width",
+   "FLOAT",
+   "STROKE_FLOAT",
+   [
+    "@Semânticos::border/width/strong"
+   ],
+   "Radio · Espessura da borda"
+  ],
+  [
+   "radio/border",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/border/action"
+   ],
+   "Radio · Borda"
+  ],
+  [
+   "radio/border-disabled",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/border/default"
+   ],
+   "Radio · Borda desabilitada"
+  ],
+  [
+   "radio/bg-hover",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/surface/hover"
+   ],
+   "Radio · Fundo no hover"
+  ],
+  [
+   "radio/dot",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/action/primary"
+   ],
+   "Radio · Ponto do item marcado"
+  ],
+  [
+   "radio/dot-hover",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/action/hover"
+   ],
+   "Radio · Ponto no hover"
+  ],
+  [
+   "radio/dot-disabled",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/icon/disabled"
+   ],
+   "Radio · Ponto desabilitado"
+  ],
+  [
+   "radio/dot-size",
+   "FLOAT",
+   "WIDTH_HEIGHT",
+   [
+    "@Primitivos::space/8"
+   ],
+   "Radio · Tamanho do ponto"
+  ],
+  [
+   "radio/gap",
+   "FLOAT",
+   "GAP",
+   [
+    "@Semânticos::space/inline"
+   ],
+   "Radio · Espaço entre controle e label"
+  ],
+  [
+   "radio/label",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/text/primary"
+   ],
+   "Radio · Texto do label"
+  ],
+  [
+   "radio/label-disabled",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/text/disabled"
+   ],
+   "Radio · Texto do label desabilitado"
+  ],
+  [
+   "radio/focus-ring",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/text/primary"
+   ],
+   "Radio · Anel de foco"
+  ],
+  [
+   "radio/focus-ring-width",
+   "FLOAT",
+   "STROKE_FLOAT",
+   [
+    "@Semânticos::border/width/strong"
+   ],
+   "Radio · Espessura do anel de foco"
+  ],
+  [
+   "radio/focus-ring-offset",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/4"
+   ],
+   "Radio · Distância do anel de foco"
+  ],
+  [
+   "switch/width",
+   "FLOAT",
+   "WIDTH_HEIGHT",
+   [
+    "@Primitivos::space/44"
+   ],
+   "Switch · Largura do trilho"
+  ],
+  [
+   "switch/height",
+   "FLOAT",
+   "WIDTH_HEIGHT",
+   [
+    "@Primitivos::space/24"
+   ],
+   "Switch · Altura do trilho"
+  ],
+  [
+   "switch/padding",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/4"
+   ],
+   "Switch · Espaço entre trilho e bolinha"
+  ],
+  [
+   "switch/thumb-size",
+   "FLOAT",
+   "WIDTH_HEIGHT",
+   [
+    "@Primitivos::space/16"
+   ],
+   "Switch · Tamanho da bolinha"
+  ],
+  [
+   "switch/radius",
+   "FLOAT",
+   "CORNER_RADIUS",
+   [
+    "@Primitivos::radius/full"
+   ],
+   "Switch · Cantos (pílula)"
+  ],
+  [
+   "switch/border-width",
+   "FLOAT",
+   "STROKE_FLOAT",
+   [
+    "@Semânticos::border/width/strong"
+   ],
+   "Switch · Espessura da borda do trilho"
+  ],
+  [
+   "switch/track-off-border",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/border/action"
+   ],
+   "Switch · Borda do trilho desligado"
+  ],
+  [
+   "switch/track-off-hover",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/surface/hover"
+   ],
+   "Switch · Fundo do trilho desligado no hover"
+  ],
+  [
+   "switch/thumb-off",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/border/action"
+   ],
+   "Switch · Bolinha desligada"
+  ],
+  [
+   "switch/track-on",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL,STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/action/primary"
+   ],
+   "Switch · Trilho ligado"
+  ],
+  [
+   "switch/track-on-hover",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL,STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/action/hover"
+   ],
+   "Switch · Trilho ligado no hover"
+  ],
+  [
+   "switch/thumb-on",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/text/inverse"
+   ],
+   "Switch · Bolinha ligada"
+  ],
+  [
+   "switch/disabled",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL,STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/border/default"
+   ],
+   "Switch · Trilho e bolinha desabilitados (desligado)"
+  ],
+  [
+   "switch/track-on-disabled",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL,STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/bg/disabled"
+   ],
+   "Switch · Trilho ligado desabilitado"
+  ],
+  [
+   "switch/thumb-on-disabled",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/text/disabled"
+   ],
+   "Switch · Bolinha ligada desabilitada"
+  ],
+  [
+   "switch/gap",
+   "FLOAT",
+   "GAP",
+   [
+    "@Semânticos::space/inline"
+   ],
+   "Switch · Espaço entre controle e label"
+  ],
+  [
+   "switch/label",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/text/primary"
+   ],
+   "Switch · Texto do label"
+  ],
+  [
+   "switch/label-disabled",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/text/disabled"
+   ],
+   "Switch · Texto do label desabilitado"
+  ],
+  [
+   "switch/focus-ring",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/text/primary"
+   ],
+   "Switch · Anel de foco"
+  ],
+  [
+   "switch/focus-ring-width",
+   "FLOAT",
+   "STROKE_FLOAT",
+   [
+    "@Semânticos::border/width/strong"
+   ],
+   "Switch · Espessura do anel de foco"
+  ],
+  [
+   "switch/focus-ring-offset",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/4"
+   ],
+   "Switch · Distância do anel de foco"
+  ],
+  [
+   "textarea/min-height",
+   "FLOAT",
+   "WIDTH_HEIGHT",
+   [
+    96
+   ],
+   "Textarea · Altura mínima do campo (os demais tokens vêm de input/*)"
+  ],
+  [
+   "surface/padding",
+   "FLOAT",
+   "GAP",
+   [
+    "@Semânticos::space/inset"
+   ],
+   "Surface · Padding interno"
+  ],
+  [
+   "surface/gap",
+   "FLOAT",
+   "GAP",
+   [
+    "@Semânticos::space/stack"
+   ],
+   "Surface · Espaço entre itens"
+  ],
+  [
+   "surface/radius",
+   "FLOAT",
+   "CORNER_RADIUS",
+   [
+    "@Semânticos::radius/default"
+   ],
+   "Surface · Cantos"
+  ],
+  [
+   "surface/border",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/border/default"
+   ],
+   "Surface · Borda (raised e overlay)"
+  ],
+  [
+   "surface/border-width",
+   "FLOAT",
+   "STROKE_FLOAT",
+   [
+    "@Semânticos::border/width/default"
+   ],
+   "Surface · Espessura da borda"
+  ],
+  [
+   "surface/base/bg",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/surface/base"
+   ],
+   "Surface base · Fundo"
+  ],
+  [
+   "surface/raised/bg",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/surface/raised"
+   ],
+   "Surface raised · Fundo"
+  ],
+  [
+   "surface/overlay/bg",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/surface/overlay"
+   ],
+   "Surface overlay · Fundo"
+  ],
+  [
+   "surface/modal/bg",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/surface/modal"
+   ],
+   "Surface modal · Fundo"
+  ],
+  [
+   "surface/slot-border",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/border/default"
+   ],
+   "Surface · Contorno pontilhado do slot"
+  ],
+  [
+   "surface/slot-radius",
+   "FLOAT",
+   "CORNER_RADIUS",
+   [
+    "@Semânticos::radius/sm"
+   ],
+   "Surface · Cantos do slot"
+  ],
+  [
+   "surface/hint",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/text/secondary"
+   ],
+   "Surface · Texto de dica do slot"
+  ],
+  [
+   "popover/header-gap",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/8"
+   ],
+   "Popover · Espaço entre ícone e título"
+  ],
+  [
+   "popover/fg",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/text/primary"
+   ],
+   "Popover · Texto (título e corpo)"
+  ],
+  [
+   "tag/padding-x",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/8"
+   ],
+   "Tag · Padding horizontal"
+  ],
+  [
+   "tag/padding-y",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/4"
+   ],
+   "Tag · Padding vertical"
+  ],
+  [
+   "tag/gap",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/4"
+   ],
+   "Tag · Espaço entre ponto e texto"
+  ],
+  [
+   "tag/radius",
+   "FLOAT",
+   "CORNER_RADIUS",
+   [
+    "@Primitivos::radius/full"
+   ],
+   "Tag · Cantos (pílula)"
+  ],
+  [
+   "tag/border-width",
+   "FLOAT",
+   "STROKE_FLOAT",
+   [
+    "@Semânticos::border/width/default"
+   ],
+   "Tag · Espessura da borda"
+  ],
+  [
+   "tag/dot-size",
+   "FLOAT",
+   "WIDTH_HEIGHT",
+   [
+    "@Primitivos::space/8"
+   ],
+   "Tag · Tamanho do ponto"
+  ],
+  [
+   "tag/fg",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/text/primary"
+   ],
+   "Tag · Texto"
+  ],
+  [
+   "tag/neutral/bg",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/neutral/subtle"
+   ],
+   "Tag neutral · Fundo"
+  ],
+  [
+   "tag/neutral/accent",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL,STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/neutral/default"
+   ],
+   "Tag neutral · Borda e ponto"
+  ],
+  [
+   "tag/info/bg",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/info/subtle"
+   ],
+   "Tag info · Fundo"
+  ],
+  [
+   "tag/info/accent",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL,STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/info/default"
+   ],
+   "Tag info · Borda e ponto"
+  ],
+  [
+   "tag/success/bg",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/sucesso/subtle"
+   ],
+   "Tag success · Fundo"
+  ],
+  [
+   "tag/success/accent",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL,STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/sucesso/default"
+   ],
+   "Tag success · Borda e ponto"
+  ],
+  [
+   "tag/warning/bg",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/alerta/subtle"
+   ],
+   "Tag warning · Fundo"
+  ],
+  [
+   "tag/warning/accent",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL,STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/alerta/default"
+   ],
+   "Tag warning · Borda e ponto"
+  ],
+  [
+   "tag/error/bg",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/erro/subtle"
+   ],
+   "Tag error · Fundo"
+  ],
+  [
+   "tag/error/accent",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL,STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/erro/default"
+   ],
+   "Tag error · Borda e ponto"
+  ],
+  [
+   "alert/padding",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/16"
+   ],
+   "Alert · Padding"
+  ],
+  [
+   "alert/gap",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/12"
+   ],
+   "Alert · Espaço entre ícone, conteúdo e fechar"
+  ],
+  [
+   "alert/content-gap",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/4"
+   ],
+   "Alert · Espaço entre título e texto"
+  ],
+  [
+   "alert/radius",
+   "FLOAT",
+   "CORNER_RADIUS",
+   [
+    "@Semânticos::radius/default"
+   ],
+   "Alert · Cantos"
+  ],
+  [
+   "alert/border-width",
+   "FLOAT",
+   "STROKE_FLOAT",
+   [
+    "@Semânticos::border/width/default"
+   ],
+   "Alert · Espessura da borda"
+  ],
+  [
+   "alert/fg",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/text/primary"
+   ],
+   "Alert · Texto"
+  ],
+  [
+   "alert/icon-size",
+   "FLOAT",
+   "WIDTH_HEIGHT",
+   [
+    "@Semânticos::icon/size/md"
+   ],
+   "Alert · Tamanho do ícone"
+  ],
+  [
+   "alert/info/bg",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/info/subtle"
+   ],
+   "Alert info · Fundo"
+  ],
+  [
+   "alert/info/border",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/info/default"
+   ],
+   "Alert info · Borda"
+  ],
+  [
+   "alert/success/bg",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/sucesso/subtle"
+   ],
+   "Alert success · Fundo"
+  ],
+  [
+   "alert/success/border",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/sucesso/default"
+   ],
+   "Alert success · Borda"
+  ],
+  [
+   "alert/warning/bg",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/alerta/subtle"
+   ],
+   "Alert warning · Fundo"
+  ],
+  [
+   "alert/warning/border",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/alerta/default"
+   ],
+   "Alert warning · Borda"
+  ],
+  [
+   "alert/error/bg",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/erro/subtle"
+   ],
+   "Alert error · Fundo"
+  ],
+  [
+   "alert/error/border",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/erro/default"
+   ],
+   "Alert error · Borda"
+  ],
+  [
+   "toast/bg",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/surface/overlay"
+   ],
+   "Toast · Fundo"
+  ],
+  [
+   "toast/border",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/border/default"
+   ],
+   "Toast · Borda"
+  ],
+  [
+   "toast/border-width",
+   "FLOAT",
+   "STROKE_FLOAT",
+   [
+    "@Semânticos::border/width/default"
+   ],
+   "Toast · Espessura da borda"
+  ],
+  [
+   "toast/radius",
+   "FLOAT",
+   "CORNER_RADIUS",
+   [
+    "@Semânticos::radius/default"
+   ],
+   "Toast · Cantos"
+  ],
+  [
+   "toast/padding",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/16"
+   ],
+   "Toast · Padding"
+  ],
+  [
+   "toast/gap",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/12"
+   ],
+   "Toast · Espaço entre itens"
+  ],
+  [
+   "toast/fg",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/text/primary"
+   ],
+   "Toast · Texto"
+  ],
+  [
+   "toast/accent-width",
+   "FLOAT",
+   "WIDTH_HEIGHT",
+   [
+    "@Primitivos::space/4"
+   ],
+   "Toast · Largura da barra de status"
+  ],
+  [
+   "toast/width",
+   "FLOAT",
+   "WIDTH_HEIGHT",
+   [
+    480
+   ],
+   "Toast · Largura"
+  ],
+  [
+   "toast/info/accent",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/info/default"
+   ],
+   "Toast info · Barra de status"
+  ],
+  [
+   "toast/success/accent",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/sucesso/default"
+   ],
+   "Toast success · Barra de status"
+  ],
+  [
+   "toast/warning/accent",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/alerta/default"
+   ],
+   "Toast warning · Barra de status"
+  ],
+  [
+   "toast/error/accent",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/erro/default"
+   ],
+   "Toast error · Barra de status"
+  ],
+  [
+   "tooltip/bg",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/text/primary"
+   ],
+   "Tooltip · Fundo (invertido)"
+  ],
+  [
+   "tooltip/fg",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/text/inverse"
+   ],
+   "Tooltip · Texto"
+  ],
+  [
+   "tooltip/padding-x",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/8"
+   ],
+   "Tooltip · Padding horizontal"
+  ],
+  [
+   "tooltip/padding-y",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/4"
+   ],
+   "Tooltip · Padding vertical"
+  ],
+  [
+   "tooltip/radius",
+   "FLOAT",
+   "CORNER_RADIUS",
+   [
+    "@Semânticos::radius/sm"
+   ],
+   "Tooltip · Cantos"
+  ],
+  [
+   "tooltip/arrow-width",
+   "FLOAT",
+   "WIDTH_HEIGHT",
+   [
+    "@Primitivos::space/12"
+   ],
+   "Tooltip · Largura da seta"
+  ],
+  [
+   "tooltip/arrow-height",
+   "FLOAT",
+   "WIDTH_HEIGHT",
+   [
+    6
+   ],
+   "Tooltip · Altura da seta"
+  ],
+  [
+   "tooltip/max-width",
+   "FLOAT",
+   "WIDTH_HEIGHT",
+   [
+    240
+   ],
+   "Tooltip · Largura máxima"
+  ],
+  [
+   "tabs/padding-x",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/16"
+   ],
+   "Tabs · Padding horizontal da aba"
+  ],
+  [
+   "tabs/padding-y",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/12"
+   ],
+   "Tabs · Padding vertical da aba"
+  ],
+  [
+   "tabs/gap",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/8"
+   ],
+   "Tabs · Espaço entre ícone e texto"
+  ],
+  [
+   "tabs/radius",
+   "FLOAT",
+   "CORNER_RADIUS",
+   [
+    "@Semânticos::radius/sm"
+   ],
+   "Tabs · Cantos da área clicável"
+  ],
+  [
+   "tabs/indicator-height",
+   "FLOAT",
+   "WIDTH_HEIGHT",
+   [
+    "@Semânticos::border/width/strong"
+   ],
+   "Tabs · Altura do indicador"
+  ],
+  [
+   "tabs/indicator",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/action/primary"
+   ],
+   "Tabs · Indicador da aba selecionada"
+  ],
+  [
+   "tabs/indicator-hover",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/border/default"
+   ],
+   "Tabs · Indicador no hover"
+  ],
+  [
+   "tabs/indicator-disabled",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/bg/disabled"
+   ],
+   "Tabs · Indicador da aba selecionada desabilitada"
+  ],
+  [
+   "tabs/fg",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/text/secondary"
+   ],
+   "Tabs · Texto da aba não selecionada"
+  ],
+  [
+   "tabs/fg-selected",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/text/primary"
+   ],
+   "Tabs · Texto da aba selecionada"
+  ],
+  [
+   "tabs/fg-disabled",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/text/disabled"
+   ],
+   "Tabs · Texto desabilitado"
+  ],
+  [
+   "tabs/bg-hover",
+   "COLOR",
+   "FRAME_FILL,SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/surface/hover"
+   ],
+   "Tabs · Fundo no hover"
+  ],
+  [
+   "tabs/border",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/border/default"
+   ],
+   "Tabs · Linha de base da barra"
+  ],
+  [
+   "tabs/border-width",
+   "FLOAT",
+   "STROKE_FLOAT",
+   [
+    "@Semânticos::border/width/default"
+   ],
+   "Tabs · Espessura da linha de base"
+  ],
+  [
+   "tabs/focus-ring",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/text/primary"
+   ],
+   "Tabs · Anel de foco"
+  ],
+  [
+   "tabs/focus-ring-width",
+   "FLOAT",
+   "STROKE_FLOAT",
+   [
+    "@Semânticos::border/width/strong"
+   ],
+   "Tabs · Espessura do anel de foco"
+  ],
+  [
+   "link/fg",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/action/primary"
+   ],
+   "Link · Texto"
+  ],
+  [
+   "link/fg-hover",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/action/hover"
+   ],
+   "Link · Texto no hover"
+  ],
+  [
+   "link/fg-disabled",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/text/disabled"
+   ],
+   "Link · Texto desabilitado"
+  ],
+  [
+   "link/gap",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/4"
+   ],
+   "Link · Espaço entre texto e ícone"
+  ],
+  [
+   "link/radius",
+   "FLOAT",
+   "CORNER_RADIUS",
+   [
+    "@Semânticos::radius/sm"
+   ],
+   "Link · Cantos do anel de foco"
+  ],
+  [
+   "link/focus-ring",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/text/primary"
+   ],
+   "Link · Anel de foco"
+  ],
+  [
+   "link/focus-ring-width",
+   "FLOAT",
+   "STROKE_FLOAT",
+   [
+    "@Semânticos::border/width/strong"
+   ],
+   "Link · Espessura do anel de foco"
+  ],
+  [
+   "link/padding-x",
+   "FLOAT",
+   "GAP",
+   [
+    "@Primitivos::space/4"
+   ],
+   "Link · Respiro lateral (afasta o anel de foco do texto)"
+  ],
+  [
+   "tabs/fg-hover",
+   "COLOR",
+   "TEXT_FILL",
+   [
+    "@Color · Semânticos::color/text/primary"
+   ],
+   "Tabs · Texto da aba no hover"
+  ],
+  [
+   "logo/primary",
+   "COLOR",
+   "SHAPE_FILL",
+   [
+    "@Primitivos::color/PRIMARIO/500"
+   ],
+   "Logo · Cor primária (PRIMARIO/500)"
+  ],
+  [
+   "logo/secondary",
+   "COLOR",
+   "SHAPE_FILL",
+   [
+    "@Primitivos::color/SECUNDARIO/50"
+   ],
+   "Logo · Cor secundária (SECUNDARIO/50)"
+  ],
+  [
+   "logo/tertiary",
+   "COLOR",
+   "SHAPE_FILL",
+   [
+    "@Primitivos::color/TERCEARIO/500"
+   ],
+   "Logo · Cor terciária (TERCEARIO/500)"
+  ],
+  [
+   "logo/neutral",
+   "COLOR",
+   "SHAPE_FILL",
+   [
+    "@Primitivos::color/CINZA/500"
+   ],
+   "Logo · Cor neutra (CINZA/500)"
+  ],
+  [
+   "logo/auto",
+   "COLOR",
+   "SHAPE_FILL",
+   [
+    "@Color · Semânticos::color/icon/default"
+   ],
+   "Logo · Cor automática (segue light/dark)"
+  ],
+  [
+   "logo/focus-ring",
+   "COLOR",
+   "STROKE_COLOR",
+   [
+    "@Color · Semânticos::color/text/primary"
+   ],
+   "Logo · Anel de foco (quando é link)"
+  ],
+  [
+   "logo/focus-ring-width",
+   "FLOAT",
+   "STROKE_FLOAT",
+   [
+    "@Semânticos::border/width/strong"
+   ],
+   "Logo · Espessura do anel de foco"
+  ],
+  [
+   "logo/radius",
+   "FLOAT",
+   "CORNER_RADIUS",
+   [
+    "@Semânticos::radius/sm"
+   ],
+   "Logo · Cantos do anel de foco"
+  ],
+  [
+   "button/focus-ring-radius",
+   "FLOAT",
+   "CORNER_RADIUS",
+   [
+    "@Semânticos::radius/lg"
+   ],
+   "Cantos do anel de foco do Button. Regra: button/radius + button/focus-ring-offset. Se mudar o raio do botão, ajuste este token junto."
+  ],
+  [
+   "input/focus-ring-radius",
+   "FLOAT",
+   "CORNER_RADIUS",
+   [
+    "@Semânticos::radius/lg"
+   ],
+   "Cantos do anel de foco do campo. Regra: input/radius + input/focus-ring-offset. Se mudar o raio do campo, ajuste este token junto."
+  ]
+ ]
+}

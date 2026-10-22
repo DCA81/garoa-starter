@@ -1,0 +1,2474 @@
+{
+ "pages": [
+  "00 · Capa",
+  "01 · Comece aqui",
+  "02 · Changelog",
+  "──────────────",
+  "10 · Cores",
+  "11 · Tipografia",
+  "12 · Espaçamento e grid",
+  "13 · Bordas e sombras",
+  "14 · Ícones",
+  "15 · Radius",
+  "──────────────",
+  "20 · Button",
+  "21 · Input",
+  "22 · Card",
+  "23 · Tag",
+  "24 · Modal",
+  "25 · Surface & Popover",
+  "26 · Select",
+  "27 · Checkbox",
+  "28 · Radio",
+  "29 · Switch",
+  "30 · Textarea",
+  "31 · Alert",
+  "32 · Toast",
+  "33 · Tooltip",
+  "34 · Tabs",
+  "35 · Link",
+  "35 · Marca",
+  "36 · Logo Garoa",
+  "──────────────",
+  "experiências "
+ ],
+ "collections": [
+  {
+   "name": "Primitivos",
+   "modes": [
+    "Valor"
+   ],
+   "vars": [
+    [
+     "color/BG/50",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#f9f8eb"
+     ],
+     "Plano de fundo. Passo 50."
+    ],
+    [
+     "color/BG/100",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#f4f3e6"
+     ],
+     "Plano de fundo. Passo 100."
+    ],
+    [
+     "color/BG/200",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#ebeadc"
+     ],
+     "Plano de fundo. Passo 200."
+    ],
+    [
+     "color/BG/300",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#e2e0ce"
+     ],
+     "Plano de fundo. Passo 300."
+    ],
+    [
+     "color/BG/400",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#dad9c8"
+     ],
+     "Plano de fundo. Passo 400."
+    ],
+    [
+     "color/BG/500",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#cdccba"
+     ],
+     "Plano de fundo. Passo 500."
+    ],
+    [
+     "color/PRIMARIO/50",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#968e8e"
+     ],
+     "Primário. Passo 50."
+    ],
+    [
+     "color/PRIMARIO/100",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#787070"
+     ],
+     "Primário. Passo 100."
+    ],
+    [
+     "color/PRIMARIO/200",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#6c6565"
+     ],
+     "Primário. Passo 200."
+    ],
+    [
+     "color/PRIMARIO/300",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#625c5c"
+     ],
+     "Primário. Passo 300."
+    ],
+    [
+     "color/PRIMARIO/400",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#534e4e"
+     ],
+     "Primário. Passo 400."
+    ],
+    [
+     "color/PRIMARIO/500",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#454242"
+     ],
+     "Primário. Passo 500."
+    ],
+    [
+     "color/PRIMARIO/400-25",
+     "COLOR",
+     "EFFECT_COLOR",
+     [
+      "#534e4e40"
+     ],
+     "Cor da sombra: PRIMARIO/400 com 25% de opacidade. Ao trocar a marca, recalcule a partir do novo PRIMARIO/400."
+    ],
+    [
+     "color/SECUNDARIO/50",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#46faff"
+     ],
+     "Secundário, o ciano de acento. Passo 50."
+    ],
+    [
+     "color/SECUNDARIO/100",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#40eef3"
+     ],
+     "Secundário, o ciano de acento. Passo 100."
+    ],
+    [
+     "color/SECUNDARIO/200",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#39e7eb"
+     ],
+     "Secundário, o ciano de acento. Passo 200."
+    ],
+    [
+     "color/SECUNDARIO/300",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#38dfe3"
+     ],
+     "Secundário, o ciano de acento. Passo 300."
+    ],
+    [
+     "color/SECUNDARIO/400",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#35d5d9"
+     ],
+     "Secundário, o ciano de acento. Passo 400."
+    ],
+    [
+     "color/SECUNDARIO/500",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#37cbcf"
+     ],
+     "Secundário, o ciano de acento. Passo 500."
+    ],
+    [
+     "color/CINZA/50",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#e5e7ea"
+     ],
+     "Neutros da fundação. Passo 50."
+    ],
+    [
+     "color/CINZA/100",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#dadada"
+     ],
+     "Neutros da fundação. Passo 100."
+    ],
+    [
+     "color/CINZA/200",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#c8c3c3"
+     ],
+     "Neutros da fundação. Passo 200."
+    ],
+    [
+     "color/CINZA/300",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#bebebe"
+     ],
+     "Neutros da fundação. Passo 300."
+    ],
+    [
+     "color/CINZA/400",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#adabab"
+     ],
+     "Neutros da fundação. Passo 400."
+    ],
+    [
+     "color/CINZA/500",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#968e8e"
+     ],
+     "Neutros da fundação. Passo 500."
+    ],
+    [
+     "color/CINZA/600",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#6c6565"
+     ],
+     "Neutros da fundação. Passo 600."
+    ],
+    [
+     "color/CINZA/700",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#534e4e"
+     ],
+     "Neutros da fundação. Passo 700."
+    ],
+    [
+     "color/CINZA/800",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#454242"
+     ],
+     "Neutros da fundação. Passo 800."
+    ],
+    [
+     "color/CINZA/900",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#131927"
+     ],
+     "Neutros da fundação. Passo 900."
+    ],
+    [
+     "space/4",
+     "FLOAT",
+     "GAP",
+     [
+      4
+     ],
+     "Escala da prancha de espaçamento, em pixels."
+    ],
+    [
+     "space/8",
+     "FLOAT",
+     "GAP",
+     [
+      8
+     ],
+     "Escala da prancha de espaçamento, em pixels."
+    ],
+    [
+     "space/12",
+     "FLOAT",
+     "GAP",
+     [
+      12
+     ],
+     "Escala da prancha de espaçamento, em pixels."
+    ],
+    [
+     "space/16",
+     "FLOAT",
+     "GAP",
+     [
+      16
+     ],
+     "Escala da prancha de espaçamento, em pixels."
+    ],
+    [
+     "space/22",
+     "FLOAT",
+     "ALL_SCOPES",
+     [
+      22
+     ],
+     ""
+    ],
+    [
+     "space/24",
+     "FLOAT",
+     "GAP",
+     [
+      24
+     ],
+     "Escala da prancha de espaçamento, em pixels."
+    ],
+    [
+     "space/28",
+     "FLOAT",
+     "ALL_SCOPES",
+     [
+      28
+     ],
+     ""
+    ],
+    [
+     "space/32",
+     "FLOAT",
+     "GAP",
+     [
+      32
+     ],
+     "Escala da prancha de espaçamento, em pixels."
+    ],
+    [
+     "space/36",
+     "FLOAT",
+     "ALL_SCOPES",
+     [
+      36
+     ],
+     ""
+    ],
+    [
+     "space/44",
+     "FLOAT",
+     "WIDTH_HEIGHT",
+     [
+      44
+     ],
+     "Área de toque mínima."
+    ],
+    [
+     "space/48",
+     "FLOAT",
+     "GAP",
+     [
+      48
+     ],
+     "Escala da prancha de espaçamento, em pixels."
+    ],
+    [
+     "space/64",
+     "FLOAT",
+     "GAP",
+     [
+      64
+     ],
+     "Escala da prancha de espaçamento, em pixels."
+    ],
+    [
+     "color/TERCEARIO/50",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#f0c8c2"
+     ],
+     "Terciário, o salmão da fundação. Passo 50."
+    ],
+    [
+     "color/TERCEARIO/100",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#e5b6af"
+     ],
+     "Terciário, o salmão da fundação. Passo 100."
+    ],
+    [
+     "color/TERCEARIO/200",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#e2aca4"
+     ],
+     "Terciário, o salmão da fundação. Passo 200."
+    ],
+    [
+     "color/TERCEARIO/300",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#e0a399"
+     ],
+     "Terciário, o salmão da fundação. Passo 300."
+    ],
+    [
+     "color/TERCEARIO/400",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#e3998d"
+     ],
+     "Terciário, o salmão da fundação. Passo 400."
+    ],
+    [
+     "color/TERCEARIO/500",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#e68f81"
+     ],
+     "Terciário, o salmão da fundação. Passo 500."
+    ],
+    [
+     "color/sucesso/50",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#ecf8ef"
+     ],
+     "Sucesso. Passo 50."
+    ],
+    [
+     "color/sucesso/100",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#c5e9cd"
+     ],
+     "Sucesso. Passo 100."
+    ],
+    [
+     "color/sucesso/200",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#a9deb4"
+     ],
+     "Sucesso. Passo 200."
+    ],
+    [
+     "color/sucesso/300",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#81cf92"
+     ],
+     "Sucesso. Passo 300."
+    ],
+    [
+     "color/sucesso/400",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#69c57d"
+     ],
+     "Sucesso. Passo 400."
+    ],
+    [
+     "color/sucesso/500",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#43b75d"
+     ],
+     "Sucesso. Passo 500."
+    ],
+    [
+     "color/erro/50",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#fdecec"
+     ],
+     "Erro/Perigo. Passo 50."
+    ],
+    [
+     "color/erro/100",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#fac5c3"
+     ],
+     "Erro/Perigo. Passo 100."
+    ],
+    [
+     "color/erro/200",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#f7a9a7"
+     ],
+     "Erro/Perigo. Passo 200."
+    ],
+    [
+     "color/erro/300",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#f4827e"
+     ],
+     "Erro/Perigo. Passo 300."
+    ],
+    [
+     "color/erro/400",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#f16965"
+     ],
+     "Erro/Perigo. Passo 400."
+    ],
+    [
+     "color/erro/500",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#ee443f"
+     ],
+     "Erro/Perigo. Passo 500."
+    ],
+    [
+     "color/alerta/50",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#fff7e6"
+     ],
+     "Alerta/Atenção. Passo 50."
+    ],
+    [
+     "color/alerta/100",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#ffe5b0"
+     ],
+     "Alerta/Atenção. Passo 100."
+    ],
+    [
+     "color/alerta/200",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#ffd88a"
+     ],
+     "Alerta/Atenção. Passo 200."
+    ],
+    [
+     "color/alerta/300",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#ffc654"
+     ],
+     "Alerta/Atenção. Passo 300."
+    ],
+    [
+     "color/alerta/400",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#ffbb33"
+     ],
+     "Alerta/Atenção. Passo 400."
+    ],
+    [
+     "color/alerta/500",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#ffaa00"
+     ],
+     "Alerta/Atenção. Passo 500."
+    ],
+    [
+     "color/branco",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#ffffff"
+     ],
+     "Branco puro."
+    ],
+    [
+     "color/preto",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "#000000"
+     ],
+     "Preto puro."
+    ],
+    [
+     "radius/4",
+     "FLOAT",
+     "CORNER_RADIUS",
+     [
+      4
+     ],
+     "Canto menor dos componentes."
+    ],
+    [
+     "radius/8",
+     "FLOAT",
+     "CORNER_RADIUS",
+     [
+      8
+     ],
+     "Canto das amostras de borda, sombra e botão."
+    ],
+    [
+     "border/width/100",
+     "FLOAT",
+     "STROKE_FLOAT",
+     [
+      1
+     ],
+     "Traço de 1px, amostra 100."
+    ],
+    [
+     "border/width/200",
+     "FLOAT",
+     "STROKE_FLOAT",
+     [
+      2
+     ],
+     "Traço de 2px, amostra 200."
+    ],
+    [
+     "shadow/offset-y",
+     "FLOAT",
+     "EFFECT_FLOAT",
+     [
+      "@Primitivos::space/4"
+     ],
+     "Deslocamento vertical da sombra. Alias de space/4."
+    ],
+    [
+     "shadow/blur/100",
+     "FLOAT",
+     "EFFECT_FLOAT",
+     [
+      "@Primitivos::space/4"
+     ],
+     "Desfoque da sombra 100."
+    ],
+    [
+     "shadow/blur/200",
+     "FLOAT",
+     "EFFECT_FLOAT",
+     [
+      "@Primitivos::space/8"
+     ],
+     "Desfoque da sombra 200."
+    ],
+    [
+     "shadow/blur/300",
+     "FLOAT",
+     "EFFECT_FLOAT",
+     [
+      "@Primitivos::space/12"
+     ],
+     "Desfoque da sombra 300."
+    ],
+    [
+     "shadow/blur/400",
+     "FLOAT",
+     "EFFECT_FLOAT",
+     [
+      "@Primitivos::space/16"
+     ],
+     "Desfoque da sombra 400."
+    ],
+    [
+     "shadow/opacity",
+     "FLOAT",
+     "",
+     [
+      0.25
+     ],
+     "Referência da opacidade da sombra (25%). A opacidade real vem de color/PRIMARIO/400-25."
+    ],
+    [
+     "color/preto/40",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL",
+     [
+      "#00000066"
+     ],
+     "Preto 40% — base do backdrop (light)"
+    ],
+    [
+     "color/preto/60",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL",
+     [
+      "#00000099"
+     ],
+     "Preto 60% — base do backdrop (dark)"
+    ],
+    [
+     "radius/12",
+     "FLOAT",
+     "CORNER_RADIUS",
+     [
+      12
+     ],
+     ""
+    ],
+    [
+     "radius/full",
+     "FLOAT",
+     "CORNER_RADIUS",
+     [
+      999
+     ],
+     "Cantos totalmente arredondados (círculos e pílulas)"
+    ]
+   ]
+  },
+  {
+   "name": "Semânticos",
+   "modes": [
+    "Mobile",
+    "tablet",
+    "Desktop"
+   ],
+   "vars": [
+    [
+     "space/inset",
+     "FLOAT",
+     "GAP",
+     [
+      "@Primitivos::space/24",
+      "@Primitivos::space/24",
+      "@Primitivos::space/24"
+     ],
+     "Espaço interno. Alias de space/24."
+    ],
+    [
+     "space/stack",
+     "FLOAT",
+     "GAP",
+     [
+      "@Primitivos::space/16",
+      "@Primitivos::space/16",
+      "@Primitivos::space/16"
+     ],
+     "Espaço entre blocos. Alias de space/16."
+    ],
+    [
+     "space/inline",
+     "FLOAT",
+     "GAP",
+     [
+      "@Primitivos::space/8",
+      "@Primitivos::space/8",
+      "@Primitivos::space/8"
+     ],
+     "Espaço em linha. Alias de space/8."
+    ],
+    [
+     "space/section",
+     "FLOAT",
+     "GAP",
+     [
+      "@Primitivos::space/32",
+      "@Primitivos::space/48",
+      "@Primitivos::space/64"
+     ],
+     "Espaço entre seções. Alias de space/64."
+    ],
+    [
+     "icon/size/sm",
+     "FLOAT",
+     "WIDTH_HEIGHT,FONT_SIZE",
+     [
+      20,
+      20,
+      20
+     ],
+     ""
+    ],
+    [
+     "icon/size/md",
+     "FLOAT",
+     "WIDTH_HEIGHT,FONT_SIZE",
+     [
+      24,
+      24,
+      24
+     ],
+     ""
+    ],
+    [
+     "icon/size/lg",
+     "FLOAT",
+     "WIDTH_HEIGHT,FONT_SIZE",
+     [
+      32,
+      32,
+      32
+     ],
+     ""
+    ],
+    [
+     "icon/size/xl",
+     "FLOAT",
+     "WIDTH_HEIGHT,FONT_SIZE",
+     [
+      40,
+      40,
+      40
+     ],
+     ""
+    ],
+    [
+     "icon/weight",
+     "FLOAT",
+     "FONT_WEIGHT",
+     [
+      400,
+      400,
+      400
+     ],
+     ""
+    ],
+    [
+     "radius/default",
+     "FLOAT",
+     "CORNER_RADIUS",
+     [
+      "@Primitivos::radius/8",
+      "@Primitivos::radius/8",
+      "@Primitivos::radius/8"
+     ],
+     "Canto dos controles, como o botão. Alias de radius/8."
+    ],
+    [
+     "border/width/default",
+     "FLOAT",
+     "STROKE_FLOAT",
+     [
+      "@Primitivos::border/width/100",
+      "@Primitivos::border/width/100",
+      "@Primitivos::border/width/100"
+     ],
+     "Traço padrão. Alias de border/width/100."
+    ],
+    [
+     "border/width/strong",
+     "FLOAT",
+     "STROKE_FLOAT",
+     [
+      "@Primitivos::border/width/200",
+      "@Primitivos::border/width/200",
+      "@Primitivos::border/width/200"
+     ],
+     "Traço forte. Alias de border/width/200."
+    ],
+    [
+     "space/target",
+     "FLOAT",
+     "WIDTH_HEIGHT",
+     [
+      "@Primitivos::space/44",
+      "@Primitivos::space/44",
+      "@Primitivos::space/44"
+     ],
+     "Área de toque mínima. O glifo não cresce até este tamanho."
+    ],
+    [
+     "radius/lg",
+     "FLOAT",
+     "CORNER_RADIUS",
+     [
+      "@Primitivos::radius/12",
+      "@Primitivos::radius/12",
+      "@Primitivos::radius/12"
+     ],
+     "Containers de nível alto (Modal)"
+    ],
+    [
+     "radius/sm",
+     "FLOAT",
+     "CORNER_RADIUS",
+     [
+      "@Primitivos::radius/4",
+      "@Primitivos::radius/4",
+      "@Primitivos::radius/4"
+     ],
+     "Elementos internos (ex.: Option do menu). Regra: raio interno = externo − padding"
+    ]
+   ]
+  },
+  {
+   "name": "Typography · Primitivos",
+   "modes": [
+    "Valor"
+   ],
+   "vars": [
+    [
+     "font/family/brand",
+     "STRING",
+     "FONT_FAMILY",
+     [
+      "Inter"
+     ],
+     "Família da marca."
+    ],
+    [
+     "font/weight/regular",
+     "FLOAT",
+     "FONT_WEIGHT",
+     [
+      400
+     ],
+     "Peso regular."
+    ],
+    [
+     "font/weight/medium",
+     "FLOAT",
+     "FONT_WEIGHT",
+     [
+      500
+     ],
+     "Peso medium."
+    ],
+    [
+     "font/weight/semibold",
+     "FLOAT",
+     "FONT_WEIGHT",
+     [
+      600
+     ],
+     "Peso semibold."
+    ],
+    [
+     "font/weight/bold",
+     "FLOAT",
+     "FONT_WEIGHT",
+     [
+      700
+     ],
+     "Peso bold."
+    ],
+    [
+     "font/size/10",
+     "FLOAT",
+     "FONT_SIZE",
+     [
+      10
+     ],
+     "Tamanho 10."
+    ],
+    [
+     "font/size/12",
+     "FLOAT",
+     "FONT_SIZE",
+     [
+      12
+     ],
+     "Tamanho 12."
+    ],
+    [
+     "font/size/16",
+     "FLOAT",
+     "FONT_SIZE",
+     [
+      16
+     ],
+     "Tamanho 16."
+    ],
+    [
+     "font/size/18",
+     "FLOAT",
+     "FONT_SIZE",
+     [
+      18
+     ],
+     "Tamanho 18."
+    ],
+    [
+     "font/size/24",
+     "FLOAT",
+     "FONT_SIZE",
+     [
+      24
+     ],
+     "Tamanho 24."
+    ],
+    [
+     "font/size/22",
+     "FLOAT",
+     "ALL_SCOPES",
+     [
+      22
+     ],
+     ""
+    ],
+    [
+     "font/size/28",
+     "FLOAT",
+     "FONT_SIZE",
+     [
+      28
+     ],
+     "Tamanho 28."
+    ],
+    [
+     "font/size/32",
+     "FLOAT",
+     "FONT_SIZE",
+     [
+      32
+     ],
+     "Tamanho 32."
+    ],
+    [
+     "font/size/36",
+     "FLOAT",
+     "ALL_SCOPES",
+     [
+      36
+     ],
+     ""
+    ],
+    [
+     "font/size/40",
+     "FLOAT",
+     "FONT_SIZE",
+     [
+      40
+     ],
+     "Tamanho 40."
+    ],
+    [
+     "font/size/44",
+     "FLOAT",
+     "FONT_SIZE",
+     [
+      44
+     ],
+     "Tamanho 14."
+    ],
+    [
+     "font/size/48",
+     "FLOAT",
+     "FONT_SIZE",
+     [
+      48
+     ],
+     "Tamanho 48."
+    ],
+    [
+     "font/line-height/16",
+     "FLOAT",
+     "LINE_HEIGHT",
+     [
+      16
+     ],
+     "Altura de linha 16."
+    ],
+    [
+     "font/line-height/20",
+     "FLOAT",
+     "LINE_HEIGHT",
+     [
+      20
+     ],
+     "Altura de linha 20."
+    ],
+    [
+     "font/line-height/21",
+     "FLOAT",
+     "LINE_HEIGHT",
+     [
+      21
+     ],
+     "Altura de linha 21, uma vez e meia o tamanho 14."
+    ],
+    [
+     "font/line-height/24",
+     "FLOAT",
+     "LINE_HEIGHT",
+     [
+      24
+     ],
+     "Altura de linha 24."
+    ],
+    [
+     "font/line-height/27",
+     "FLOAT",
+     "LINE_HEIGHT",
+     [
+      27
+     ],
+     "Altura de linha 27, uma vez e meia o tamanho 18."
+    ],
+    [
+     "font/line-height/28",
+     "FLOAT",
+     "LINE_HEIGHT",
+     [
+      28
+     ],
+     "Altura de linha 28."
+    ],
+    [
+     "font/line-height/32",
+     "FLOAT",
+     "LINE_HEIGHT",
+     [
+      32
+     ],
+     "Altura de linha 32."
+    ],
+    [
+     "font/line-height/40",
+     "FLOAT",
+     "LINE_HEIGHT",
+     [
+      40
+     ],
+     "Altura de linha 40."
+    ],
+    [
+     "font/line-height/48",
+     "FLOAT",
+     "LINE_HEIGHT",
+     [
+      48
+     ],
+     "Altura de linha 48."
+    ],
+    [
+     "font/line-height/56",
+     "FLOAT",
+     "LINE_HEIGHT",
+     [
+      56
+     ],
+     "Altura de linha 56."
+    ],
+    [
+     "font/letter-spacing/tight",
+     "FLOAT",
+     "LETTER_SPACING",
+     [
+      -0.5
+     ],
+     "Espaçamento entre letras tight."
+    ],
+    [
+     "font/letter-spacing/normal",
+     "FLOAT",
+     "LETTER_SPACING",
+     [
+      0
+     ],
+     "Espaçamento entre letras normal."
+    ],
+    [
+     "font/letter-spacing/wide",
+     "FLOAT",
+     "LETTER_SPACING",
+     [
+      0.5
+     ],
+     "Espaçamento entre letras wide."
+    ],
+    [
+     "font/size/50",
+     "FLOAT",
+     "FONT_SIZE",
+     [
+      50
+     ],
+     "Tamanho 50."
+    ],
+    [
+     "font/size/20",
+     "FLOAT",
+     "FONT_SIZE",
+     [
+      20
+     ],
+     "Tamanho 20."
+    ],
+    [
+     "Número",
+     "FLOAT",
+     "ALL_SCOPES",
+     [
+      0
+     ],
+     ""
+    ]
+   ]
+  },
+  {
+   "name": "Typography · Mono Primitivos",
+   "modes": [
+    "Valor"
+   ],
+   "vars": [
+    [
+     "font/family/brand",
+     "STRING",
+     "FONT_FAMILY",
+     [
+      "IBM Plex Mono"
+     ],
+     "Família mono."
+    ],
+    [
+     "font/weight/regular",
+     "FLOAT",
+     "FONT_WEIGHT",
+     [
+      400
+     ],
+     "Peso regular."
+    ],
+    [
+     "font/weight/medium",
+     "FLOAT",
+     "FONT_WEIGHT",
+     [
+      500
+     ],
+     "Peso medium."
+    ],
+    [
+     "font/size/14",
+     "FLOAT",
+     "FONT_SIZE",
+     [
+      14
+     ],
+     "Tamanho 14."
+    ],
+    [
+     "font/size/16",
+     "FLOAT",
+     "FONT_SIZE",
+     [
+      16
+     ],
+     "Tamanho 16."
+    ],
+    [
+     "font/line-height/16",
+     "FLOAT",
+     "LINE_HEIGHT",
+     [
+      16
+     ],
+     "Altura de linha 16."
+    ],
+    [
+     "font/line-height/20",
+     "FLOAT",
+     "LINE_HEIGHT",
+     [
+      20
+     ],
+     "Altura de linha 20."
+    ],
+    [
+     "font/line-height/24",
+     "FLOAT",
+     "LINE_HEIGHT",
+     [
+      24
+     ],
+     "Altura de linha 24."
+    ],
+    [
+     "font/line-height/28",
+     "FLOAT",
+     "LINE_HEIGHT",
+     [
+      28
+     ],
+     "Altura de linha 28."
+    ],
+    [
+     "font/line-height/32",
+     "FLOAT",
+     "LINE_HEIGHT",
+     [
+      32
+     ],
+     "Altura de linha 32."
+    ],
+    [
+     "font/letter-spacing/tight",
+     "FLOAT",
+     "LETTER_SPACING",
+     [
+      -0.5
+     ],
+     "Espaçamento entre letras tight."
+    ],
+    [
+     "font/letter-spacing/normal",
+     "FLOAT",
+     "LETTER_SPACING",
+     [
+      0
+     ],
+     "Espaçamento entre letras normal."
+    ],
+    [
+     "font/letter-spacing/wide",
+     "FLOAT",
+     "LETTER_SPACING",
+     [
+      0.5
+     ],
+     "Espaçamento entre letras wide."
+    ],
+    [
+     "font/size/18",
+     "FLOAT",
+     "FONT_SIZE",
+     [
+      18
+     ],
+     "Tamanho 18 da IBM Plex Mono."
+    ],
+    [
+     "font/line-height/21",
+     "FLOAT",
+     "LINE_HEIGHT",
+     [
+      21
+     ],
+     "Altura de linha 21 da IBM Plex Mono, 1.5 vezes o tamanho 14."
+    ],
+    [
+     "font/line-height/27",
+     "FLOAT",
+     "LINE_HEIGHT",
+     [
+      27
+     ],
+     "Altura de linha 27 da IBM Plex Mono, 1.5 vezes o tamanho 18."
+    ]
+   ]
+  },
+  {
+   "name": "Typography · Responsivo",
+   "modes": [
+    "Mobile",
+    "tablet",
+    "Desktop"
+   ],
+   "vars": [
+    [
+     "type/display/size",
+     "FLOAT",
+     "FONT_SIZE",
+     [
+      "@Typography · Primitivos::font/size/48",
+      "@Typography · Primitivos::font/size/48",
+      "@Typography · Primitivos::font/size/50"
+     ],
+     "Tamanho de display. Alias de font/size."
+    ],
+    [
+     "type/h1/size",
+     "FLOAT",
+     "FONT_SIZE",
+     [
+      "@Typography · Primitivos::font/size/40",
+      "@Typography · Primitivos::font/size/40",
+      "@Typography · Primitivos::font/size/48"
+     ],
+     "Tamanho de h1. Alias de font/size."
+    ],
+    [
+     "type/h2/size",
+     "FLOAT",
+     "FONT_SIZE",
+     [
+      "@Typography · Primitivos::font/size/32",
+      "@Typography · Primitivos::font/size/32",
+      "@Typography · Primitivos::font/size/40"
+     ],
+     "Tamanho de h2. Alias de font/size."
+    ],
+    [
+     "type/h3/size",
+     "FLOAT",
+     "FONT_SIZE",
+     [
+      "@Typography · Primitivos::font/size/24",
+      "@Typography · Primitivos::font/size/24",
+      "@Typography · Primitivos::font/size/32"
+     ],
+     "Tamanho de h3. Alias de font/size."
+    ],
+    [
+     "type/h4/size",
+     "FLOAT",
+     "FONT_SIZE",
+     [
+      "@Typography · Primitivos::font/size/20",
+      "@Typography · Primitivos::font/size/20",
+      "@Typography · Primitivos::font/size/28"
+     ],
+     "Tamanho de h4. Alias de font/size."
+    ],
+    [
+     "type/h5/size",
+     "FLOAT",
+     "FONT_SIZE",
+     [
+      "@Typography · Primitivos::font/size/18",
+      "@Typography · Primitivos::font/size/18",
+      "@Typography · Primitivos::font/size/24"
+     ],
+     "Tamanho de h5. Alias de font/size."
+    ],
+    [
+     "type/display/line-height",
+     "FLOAT",
+     "LINE_HEIGHT",
+     [
+      "@Typography · Primitivos::font/line-height/56",
+      "@Typography · Primitivos::font/line-height/56",
+      "@Typography · Primitivos::font/line-height/56"
+     ],
+     "Altura de linha de display. Alias de font/line-height."
+    ],
+    [
+     "type/h1/line-height",
+     "FLOAT",
+     "LINE_HEIGHT",
+     [
+      "@Typography · Primitivos::font/line-height/48",
+      "@Typography · Primitivos::font/line-height/56",
+      "@Typography · Primitivos::font/line-height/56"
+     ],
+     "Altura de linha de h1. Alias de font/line-height."
+    ],
+    [
+     "type/h2/line-height",
+     "FLOAT",
+     "LINE_HEIGHT",
+     [
+      "@Typography · Primitivos::font/line-height/40",
+      "@Typography · Primitivos::font/line-height/48",
+      "@Typography · Primitivos::font/line-height/48"
+     ],
+     "Altura de linha de h2. Alias de font/line-height."
+    ],
+    [
+     "type/h3/line-height",
+     "FLOAT",
+     "LINE_HEIGHT",
+     [
+      "@Typography · Primitivos::font/line-height/28",
+      "@Typography · Primitivos::font/line-height/40",
+      "@Typography · Primitivos::font/line-height/40"
+     ],
+     "Altura de linha de h3. Alias de font/line-height."
+    ],
+    [
+     "type/h4/line-height",
+     "FLOAT",
+     "LINE_HEIGHT",
+     [
+      "@Typography · Primitivos::font/line-height/28",
+      "@Typography · Primitivos::font/line-height/32",
+      "@Typography · Primitivos::font/line-height/32"
+     ],
+     "Altura de linha de h4. Alias de font/line-height."
+    ],
+    [
+     "type/h5/line-height",
+     "FLOAT",
+     "LINE_HEIGHT",
+     [
+      "@Typography · Primitivos::font/line-height/28",
+      "@Typography · Primitivos::font/line-height/28",
+      "@Typography · Primitivos::font/line-height/28"
+     ],
+     "Altura de linha de h5. Alias de font/line-height."
+    ],
+    [
+     "grid/colunas",
+     "FLOAT",
+     "",
+     [
+      4,
+      8,
+      12
+     ],
+     ""
+    ],
+    [
+     "grid/margem",
+     "FLOAT",
+     "GAP",
+     [
+      16,
+      24,
+      32
+     ],
+     ""
+    ],
+    [
+     "grid/entre-colunas",
+     "FLOAT",
+     "GAP",
+     [
+      24,
+      24,
+      24
+     ],
+     ""
+    ]
+   ]
+  },
+  {
+   "name": "Color · Semânticos",
+   "modes": [
+    "Light",
+    "Dark"
+   ],
+   "vars": [
+    [
+     "color/bg/default",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "@Primitivos::color/BG/50",
+      "@Primitivos::color/CINZA/900"
+     ],
+     "Fundo. Light: ivory/50. Dark: gray/900."
+    ],
+    [
+     "color/text/primary",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "@Primitivos::color/PRIMARIO/500",
+      "@Primitivos::color/BG/50"
+     ],
+     "Texto. Light: gray/900. Dark: ivory/50."
+    ],
+    [
+     "color/border/default",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "@Primitivos::color/CINZA/100",
+      "@Primitivos::color/CINZA/400"
+     ],
+     "Borda. Light: gray/100. Dark: lead/400."
+    ],
+    [
+     "color/action/primary",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "@Primitivos::color/PRIMARIO/500",
+      "@Primitivos::color/SECUNDARIO/500"
+     ],
+     "Ação. Light: lead/500. Dark: royal/500."
+    ],
+    [
+     "color/terciario/default",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "@Primitivos::color/TERCEARIO/500",
+      "@Primitivos::color/TERCEARIO/300"
+     ],
+     "Terciário. Light: 500. Dark: 300."
+    ],
+    [
+     "color/sucesso/default",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "@Primitivos::color/sucesso/500",
+      "@Primitivos::color/sucesso/300"
+     ],
+     "Sucesso. Light: 500. Dark: 300."
+    ],
+    [
+     "color/erro/default",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "@Primitivos::color/erro/500",
+      "@Primitivos::color/erro/300"
+     ],
+     "Erro. Light: 500. Dark: 300."
+    ],
+    [
+     "color/alerta/default",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "@Primitivos::color/alerta/500",
+      "@Primitivos::color/alerta/300"
+     ],
+     "Alerta. Light: 500. Dark: 300."
+    ],
+    [
+     "icon/grade",
+     "FLOAT",
+     "",
+     [
+      0,
+      -25
+     ],
+     ""
+    ],
+    [
+     "color/icon/default",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "@Primitivos::color/PRIMARIO/500",
+      "@Primitivos::color/BG/50"
+     ],
+     ""
+    ],
+    [
+     "color/icon/action",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "@Primitivos::color/PRIMARIO/500",
+      "@Primitivos::color/SECUNDARIO/500"
+     ],
+     ""
+    ],
+    [
+     "color/icon/inverse",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "@Primitivos::color/BG/50",
+      "@Primitivos::color/PRIMARIO/500"
+     ],
+     ""
+    ],
+    [
+     "color/icon/disabled",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "@Primitivos::color/PRIMARIO/100",
+      "@Primitivos::color/CINZA/400"
+     ],
+     ""
+    ],
+    [
+     "color/icon/sucesso",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "@Primitivos::color/sucesso/500",
+      "@Primitivos::color/sucesso/300"
+     ],
+     ""
+    ],
+    [
+     "color/icon/erro",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "@Primitivos::color/erro/500",
+      "@Primitivos::color/erro/300"
+     ],
+     ""
+    ],
+    [
+     "color/icon/alerta",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR,EFFECT_COLOR",
+     [
+      "@Primitivos::color/alerta/500",
+      "@Primitivos::color/alerta/300"
+     ],
+     ""
+    ],
+    [
+     "shadow/color",
+     "COLOR",
+     "EFFECT_COLOR",
+     [
+      "@Primitivos::color/PRIMARIO/400-25",
+      "@Primitivos::color/PRIMARIO/400-25"
+     ],
+     "Cor das sombras. Alias de color/PRIMARIO/400-25 (PRIMARIO/400 a 25%). Os estilos shadow/100 a 400 usam este token."
+    ],
+    [
+     "color/text/inverse",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR",
+     [
+      "@Primitivos::color/BG/50",
+      "@Primitivos::color/CINZA/900"
+     ],
+     "Texto sobre o botão primary."
+    ],
+    [
+     "color/text/disabled",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR",
+     [
+      "@Primitivos::color/PRIMARIO/100",
+      "@Primitivos::color/CINZA/400"
+     ],
+     "Texto desabilitado. lead/100 nos dois modos."
+    ],
+    [
+     "color/action/hover",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR",
+     [
+      "@Primitivos::color/CINZA/900",
+      "@Primitivos::color/SECUNDARIO/300"
+     ],
+     "Hover da ação. No claro usa gray/900 porque o lead não tem passo mais escuro que 500."
+    ],
+    [
+     "color/bg/disabled",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR",
+     [
+      "@Primitivos::color/CINZA/50",
+      "@Primitivos::color/CINZA/800"
+     ],
+     "Fundo desabilitado. lead/50 nos dois modos."
+    ],
+    [
+     "color/border/action",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR",
+     [
+      "@Primitivos::color/PRIMARIO/500",
+      "@Primitivos::color/SECUNDARIO/500"
+     ],
+     "Traço do botão secundário. A borda neutra continua em color/border/default."
+    ],
+    [
+     "color/text/hover",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR",
+     [
+      "@Primitivos::color/PRIMARIO/500",
+      "@Primitivos::color/BG/50"
+     ],
+     "Rótulo, ícone e traço do secondary e do ghost em hover e press. lead/500 nos dois modos."
+    ],
+    [
+     "color/surface/raised",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL",
+     [
+      "@Primitivos::color/branco",
+      "@Primitivos::color/CINZA/800"
+     ],
+     "Card e containers fixos na página (nível 1)"
+    ],
+    [
+     "color/surface/overlay",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL",
+     [
+      "@Primitivos::color/branco",
+      "@Primitivos::color/CINZA/700"
+     ],
+     "Popover, menu do Select, tooltip (nível 2)"
+    ],
+    [
+     "color/surface/modal",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL",
+     [
+      "@Primitivos::color/branco",
+      "@Primitivos::color/CINZA/600"
+     ],
+     "Modal e diálogos (nível 3)"
+    ],
+    [
+     "color/backdrop",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL",
+     [
+      "@Primitivos::color/preto/40",
+      "@Primitivos::color/preto/60"
+     ],
+     "Fundo escurecido atrás do Modal"
+    ],
+    [
+     "color/surface/hover",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL",
+     [
+      "@Primitivos::color/BG/200",
+      "@Primitivos::color/CINZA/600"
+     ],
+     ""
+    ],
+    [
+     "color/surface/selected",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL",
+     [
+      "@Primitivos::color/BG/50",
+      "@Primitivos::color/CINZA/800"
+     ],
+     ""
+    ],
+    [
+     "color/bg/hover",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,TEXT_FILL,STROKE_COLOR",
+     [
+      "@Primitivos::color/BG/200",
+      "@Primitivos::color/CINZA/700"
+     ],
+     "Fundo de hover e press do secondary e do ghost. ivory/200 nos dois modos."
+    ],
+    [
+     "color/text/placeholder",
+     "COLOR",
+     "TEXT_FILL",
+     [
+      "@Primitivos::color/CINZA/600",
+      "@Primitivos::color/CINZA/300"
+     ],
+     ""
+    ],
+    [
+     "color/text/secondary",
+     "COLOR",
+     "TEXT_FILL",
+     [
+      "@Primitivos::color/CINZA/600",
+      "@Primitivos::color/CINZA/200"
+     ],
+     ""
+    ],
+    [
+     "color/surface/base",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL",
+     [
+      "@Primitivos::color/BG/50",
+      "@Primitivos::color/CINZA/900"
+     ],
+     "Nível 0 de elevação: fundo da página"
+    ],
+    [
+     "color/sucesso/subtle",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,STROKE_COLOR",
+     [
+      "@Primitivos::color/sucesso/50",
+      "@Primitivos::color/CINZA/800"
+     ],
+     "Fundo suave de sucesso (alertas, tags)"
+    ],
+    [
+     "color/erro/subtle",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,STROKE_COLOR",
+     [
+      "@Primitivos::color/erro/50",
+      "@Primitivos::color/CINZA/800"
+     ],
+     "Fundo suave de erro"
+    ],
+    [
+     "color/alerta/subtle",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,STROKE_COLOR",
+     [
+      "@Primitivos::color/alerta/50",
+      "@Primitivos::color/CINZA/800"
+     ],
+     "Fundo suave de alerta"
+    ],
+    [
+     "color/info/default",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,STROKE_COLOR",
+     [
+      "@Primitivos::color/PRIMARIO/500",
+      "@Primitivos::color/SECUNDARIO/500"
+     ],
+     "Cor de destaque para informação (ícone, borda)"
+    ],
+    [
+     "color/info/subtle",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,STROKE_COLOR",
+     [
+      "@Primitivos::color/BG/200",
+      "@Primitivos::color/CINZA/800"
+     ],
+     "Fundo suave de informação"
+    ],
+    [
+     "color/neutral/subtle",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,STROKE_COLOR",
+     [
+      "@Primitivos::color/CINZA/50",
+      "@Primitivos::color/CINZA/700"
+     ],
+     "Fundo suave neutro (tags sem status)"
+    ],
+    [
+     "color/neutral/default",
+     "COLOR",
+     "FRAME_FILL,SHAPE_FILL,STROKE_COLOR",
+     [
+      "@Primitivos::color/CINZA/600",
+      "@Primitivos::color/CINZA/400"
+     ],
+     "Destaque neutro (borda e ponto de tags sem status)"
+    ]
+   ]
+  }
+ ],
+ "textStyles": [
+  {
+   "name": "Heading/H1",
+   "fontName": {
+    "family": "Inter",
+    "style": "Semi Bold",
+    "variationSettings": {
+     "wght": 600,
+     "slnt": 0
+    }
+   },
+   "fontSize": 40,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 48
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "textDecoration": "NONE",
+   "bound": {
+    "letterSpacing": "Typography · Primitivos::font/letter-spacing/normal",
+    "fontSize": "Typography · Responsivo::type/h1/size",
+    "fontFamily": "Typography · Primitivos::font/family/brand",
+    "lineHeight": "Typography · Responsivo::type/h1/line-height",
+    "fontWeight": "Typography · Primitivos::font/weight/semibold"
+   }
+  },
+  {
+   "name": "Display",
+   "fontName": {
+    "family": "Inter",
+    "style": "Bold",
+    "variationSettings": {
+     "wght": 700,
+     "slnt": 0
+    }
+   },
+   "fontSize": 48,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 56
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "textDecoration": "NONE",
+   "bound": {
+    "letterSpacing": "Typography · Primitivos::font/letter-spacing/normal",
+    "fontSize": "Typography · Responsivo::type/display/size",
+    "fontFamily": "Typography · Primitivos::font/family/brand",
+    "lineHeight": "Typography · Responsivo::type/display/line-height",
+    "fontWeight": "Typography · Primitivos::font/weight/bold"
+   }
+  },
+  {
+   "name": "Heading/H2",
+   "fontName": {
+    "family": "Inter",
+    "style": "Semi Bold",
+    "variationSettings": {
+     "wght": 600,
+     "slnt": 0
+    }
+   },
+   "fontSize": 32,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 40
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "textDecoration": "NONE",
+   "bound": {
+    "letterSpacing": "Typography · Primitivos::font/letter-spacing/normal",
+    "fontSize": "Typography · Responsivo::type/h2/size",
+    "fontFamily": "Typography · Primitivos::font/family/brand",
+    "lineHeight": "Typography · Responsivo::type/h2/line-height",
+    "fontWeight": "Typography · Primitivos::font/weight/semibold"
+   }
+  },
+  {
+   "name": "Heading/H3",
+   "fontName": {
+    "family": "Inter",
+    "style": "Semi Bold",
+    "variationSettings": {
+     "wght": 600,
+     "slnt": 0
+    }
+   },
+   "fontSize": 24,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 28
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "textDecoration": "NONE",
+   "bound": {
+    "letterSpacing": "Typography · Primitivos::font/letter-spacing/normal",
+    "fontSize": "Typography · Responsivo::type/h3/size",
+    "fontFamily": "Typography · Primitivos::font/family/brand",
+    "lineHeight": "Typography · Responsivo::type/h3/line-height",
+    "fontWeight": "Typography · Primitivos::font/weight/semibold"
+   }
+  },
+  {
+   "name": "Heading/H4",
+   "fontName": {
+    "family": "Inter",
+    "style": "Semi Bold",
+    "variationSettings": {
+     "wght": 600,
+     "slnt": 0
+    }
+   },
+   "fontSize": 20,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 28
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "textDecoration": "NONE",
+   "bound": {
+    "letterSpacing": "Typography · Primitivos::font/letter-spacing/normal",
+    "fontSize": "Typography · Responsivo::type/h4/size",
+    "fontFamily": "Typography · Primitivos::font/family/brand",
+    "lineHeight": "Typography · Responsivo::type/h4/line-height",
+    "fontWeight": "Typography · Primitivos::font/weight/semibold"
+   }
+  },
+  {
+   "name": "Body/LG",
+   "fontName": {
+    "family": "Inter",
+    "style": "Regular",
+    "variationSettings": {
+     "wght": 400,
+     "slnt": 0
+    }
+   },
+   "fontSize": 18,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 27
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "textDecoration": "NONE",
+   "bound": {
+    "letterSpacing": "Typography · Primitivos::font/letter-spacing/normal",
+    "fontSize": "Typography · Primitivos::font/size/18",
+    "fontFamily": "Typography · Primitivos::font/family/brand",
+    "lineHeight": "Typography · Primitivos::font/line-height/27",
+    "fontWeight": "Typography · Primitivos::font/weight/regular"
+   }
+  },
+  {
+   "name": "Body/MD/Medium",
+   "fontName": {
+    "family": "IBM Plex Mono",
+    "style": "Medium"
+   },
+   "fontSize": 16,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 24
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "textDecoration": "NONE",
+   "bound": {
+    "letterSpacing": "Typography · Mono Primitivos::font/letter-spacing/normal",
+    "fontSize": "Typography · Mono Primitivos::font/size/16",
+    "fontFamily": "Typography · Mono Primitivos::font/family/brand",
+    "lineHeight": "Typography · Mono Primitivos::font/line-height/24",
+    "fontWeight": "Typography · Mono Primitivos::font/weight/medium"
+   }
+  },
+  {
+   "name": "Body/SM/Medium",
+   "fontName": {
+    "family": "IBM Plex Mono",
+    "style": "Medium"
+   },
+   "fontSize": 14,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 21
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "textDecoration": "NONE",
+   "bound": {
+    "letterSpacing": "Typography · Mono Primitivos::font/letter-spacing/normal",
+    "fontSize": "Typography · Mono Primitivos::font/size/14",
+    "fontFamily": "Typography · Mono Primitivos::font/family/brand",
+    "lineHeight": "Typography · Mono Primitivos::font/line-height/21",
+    "fontWeight": "Typography · Mono Primitivos::font/weight/medium"
+   }
+  },
+  {
+   "name": "Label/MD",
+   "fontName": {
+    "family": "Inter",
+    "style": "Medium",
+    "variationSettings": {
+     "wght": 500,
+     "slnt": 0
+    }
+   },
+   "fontSize": 18,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 16
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "textDecoration": "NONE",
+   "bound": {
+    "letterSpacing": "Typography · Primitivos::font/letter-spacing/normal",
+    "fontSize": "Typography · Primitivos::font/size/18",
+    "fontFamily": "Typography · Primitivos::font/family/brand",
+    "lineHeight": "Typography · Primitivos::font/line-height/16",
+    "fontWeight": "Typography · Primitivos::font/weight/medium"
+   }
+  },
+  {
+   "name": "Label/SM",
+   "fontName": {
+    "family": "Inter",
+    "style": "Medium",
+    "variationSettings": {
+     "wght": 500,
+     "slnt": 0
+    }
+   },
+   "fontSize": 12,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 16
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "textDecoration": "NONE",
+   "bound": {
+    "letterSpacing": "Typography · Primitivos::font/letter-spacing/normal",
+    "fontSize": "Typography · Primitivos::font/size/12",
+    "fontFamily": "Typography · Primitivos::font/family/brand",
+    "lineHeight": "Typography · Primitivos::font/line-height/16",
+    "fontWeight": "Typography · Primitivos::font/weight/medium"
+   }
+  },
+  {
+   "name": "Caption",
+   "fontName": {
+    "family": "Inter",
+    "style": "Regular",
+    "variationSettings": {
+     "wght": 400,
+     "slnt": 0
+    }
+   },
+   "fontSize": 12,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 16
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "textDecoration": "NONE",
+   "bound": {
+    "letterSpacing": "Typography · Primitivos::font/letter-spacing/normal",
+    "fontSize": "Typography · Primitivos::font/size/12",
+    "fontFamily": "Typography · Primitivos::font/family/brand",
+    "lineHeight": "Typography · Primitivos::font/line-height/16",
+    "fontWeight": "Typography · Primitivos::font/weight/regular"
+   }
+  },
+  {
+   "name": "Body/MD/Regular",
+   "fontName": {
+    "family": "IBM Plex Mono",
+    "style": "Regular"
+   },
+   "fontSize": 16,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 24
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "textDecoration": "NONE",
+   "bound": {
+    "letterSpacing": "Typography · Mono Primitivos::font/letter-spacing/normal",
+    "fontSize": "Typography · Mono Primitivos::font/size/16",
+    "fontFamily": "Typography · Mono Primitivos::font/family/brand",
+    "lineHeight": "Typography · Mono Primitivos::font/line-height/24",
+    "fontWeight": "Typography · Mono Primitivos::font/weight/regular"
+   }
+  },
+  {
+   "name": "Body/SM/Regular",
+   "fontName": {
+    "family": "IBM Plex Mono",
+    "style": "Regular"
+   },
+   "fontSize": 14,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 21
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "textDecoration": "NONE",
+   "bound": {
+    "letterSpacing": "Typography · Mono Primitivos::font/letter-spacing/normal",
+    "fontSize": "Typography · Mono Primitivos::font/size/14",
+    "fontFamily": "Typography · Mono Primitivos::font/family/brand",
+    "lineHeight": "Typography · Mono Primitivos::font/line-height/21",
+    "fontWeight": "Typography · Mono Primitivos::font/weight/regular"
+   }
+  },
+  {
+   "name": "Link/MD",
+   "fontName": {
+    "family": "IBM Plex Mono",
+    "style": "Regular"
+   },
+   "fontSize": 16,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 24
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "textDecoration": "UNDERLINE",
+   "bound": {
+    "letterSpacing": "Typography · Mono Primitivos::font/letter-spacing/normal",
+    "fontSize": "Typography · Mono Primitivos::font/size/16",
+    "fontFamily": "Typography · Mono Primitivos::font/family/brand",
+    "lineHeight": "Typography · Mono Primitivos::font/line-height/24",
+    "fontWeight": "Typography · Mono Primitivos::font/weight/regular"
+   }
+  },
+  {
+   "name": "Link/SM",
+   "fontName": {
+    "family": "IBM Plex Mono",
+    "style": "Regular"
+   },
+   "fontSize": 14,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 21
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "textDecoration": "UNDERLINE",
+   "bound": {
+    "letterSpacing": "Typography · Mono Primitivos::font/letter-spacing/normal",
+    "fontSize": "Typography · Mono Primitivos::font/size/14",
+    "fontFamily": "Typography · Mono Primitivos::font/family/brand",
+    "lineHeight": "Typography · Mono Primitivos::font/line-height/21",
+    "fontWeight": "Typography · Mono Primitivos::font/weight/regular"
+   }
+  }
+ ],
+ "effectStyles": [
+  {
+   "name": "shadow/100",
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "color": "#534e4e40",
+     "offset": {
+      "x": 0,
+      "y": 4
+     },
+     "radius": 4,
+     "spread": 0,
+     "visible": true,
+     "bound": {
+      "radius": "Primitivos::shadow/blur/100",
+      "offsetY": "Primitivos::shadow/offset-y",
+      "color": "Color · Semânticos::shadow/color"
+     }
+    }
+   ]
+  },
+  {
+   "name": "shadow/200",
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "color": "#534e4e40",
+     "offset": {
+      "x": 0,
+      "y": 4
+     },
+     "radius": 8,
+     "spread": 0,
+     "visible": true,
+     "bound": {
+      "radius": "Primitivos::shadow/blur/200",
+      "offsetY": "Primitivos::shadow/offset-y",
+      "color": "Color · Semânticos::shadow/color"
+     }
+    }
+   ]
+  },
+  {
+   "name": "shadow/300",
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "color": "#534e4e40",
+     "offset": {
+      "x": 0,
+      "y": 4
+     },
+     "radius": 12,
+     "spread": 0,
+     "visible": true,
+     "bound": {
+      "radius": "Primitivos::shadow/blur/300",
+      "offsetY": "Primitivos::shadow/offset-y",
+      "color": "Color · Semânticos::shadow/color"
+     }
+    }
+   ]
+  },
+  {
+   "name": "shadow/400",
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "color": "#534e4e40",
+     "offset": {
+      "x": 0,
+      "y": 4
+     },
+     "radius": 16,
+     "spread": 0,
+     "visible": true,
+     "bound": {
+      "radius": "Primitivos::shadow/blur/400",
+      "offsetY": "Primitivos::shadow/offset-y",
+      "color": "Color · Semânticos::shadow/color"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "garoa",
+  "owner": {
+    "name": "Daniel Costa"
+  },
+  "plugins": [
+    {
+      "name": "garoa-starter",
+      "source": "./",
+      "description": "Cria o design system da sua empresa no Figma a partir do Garoa."
+    }
+  ],
+  "description": "Plugins do Garoa, o design system de Daniel Costa."
+}

@@ -1,0 +1,20 @@
+{
+  "name": "garoa-starter",
+  "displayName": "Garoa Starter",
+  "version": "0.1.3",
+  "description": "Cria o design system da sua empresa no Figma a partir do Garoa: perguntas simples, troca de marca, validação e criação de componentes, explicados para quem nunca montou um DS.",
+  "author": {
+    "name": "Daniel Costa"
+  },
+  "homepage": "https://garoa-design-system.vercel.app",
+  "license": "MIT",
+  "keywords": [
+    "design-system",
+    "figma",
+    "tokens",
+    "acessibilidade",
+    "garoa"
+  ],
+  "privacyPolicyUrl": "https://www.figma.com/legal/privacy/",
+  "icon": "./.claude-plugin/icon.png"
+}

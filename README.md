@@ -48,6 +48,10 @@ Documentação no GitHub e código React vêm quando o DS estiver estável no Fi
 
 O plugin não coleta nem envia dados para o autor. Ele só usa a sua conexão com o Figma, que segue a [política de privacidade do Figma](https://www.figma.com/legal/privacy/).
 
+## Licença
+
+MIT © 2026 Daniel da Costa Alexandre. Você pode usar, copiar e modificar, inclusive para fins comerciais, mantendo o crédito. Veja o arquivo [LICENSE](LICENSE).
+
 ## Links
 
 - Site do Garoa: https://garoa-design-system.vercel.app

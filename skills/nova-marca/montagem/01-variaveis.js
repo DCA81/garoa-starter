@@ -16,11 +16,15 @@ for (const linha of DADOS.split('\n')) {
 }
 const existentes = await figma.variables.getLocalVariableCollectionsAsync();
 const porCod = {};
+// Plano gratuito do Figma: só 1 modo por coleção. Nesse caso fica o modo claro (Light) e o tamanho de texto Desktop.
+const MANTER = { S: 'Desktop', TR: 'Desktop', CS: 'Light' };
+const modosNaoCriados = [];
 for (const s of secoes) {
   let col = existentes.find(c => c.name === s.nome);
   if (!col) col = figma.variables.createVariableCollection(s.nome);
   col.renameMode(col.modes[0].modeId, s.modos[0]);
-  for (const m of s.modos.slice(1)) if (!col.modes.some(x => x.name === m)) col.addMode(m);
+  for (const m of s.modos.slice(1)) if (!col.modes.some(x => x.name === m)) { try { col.addMode(m); } catch (e) { modosNaoCriados.push(s.nome + ' · ' + m); } }
+  if (col.modes.length === 1 && s.modos.length > 1) col.renameMode(col.modes[0].modeId, MANTER[s.cod] || s.modos[0]);
   porCod[s.cod] = col;
 }
 const todas = await figma.variables.getLocalVariablesAsync();
@@ -43,7 +47,8 @@ for (const s of secoes) {
   for (const d of s.vars) {
     const v = mapa[chave(col.id, d.nome)];
     d.valores.forEach((bruto, i) => {
-      const modo = col.modes.find(m => m.name === s.modos[i]).modeId;
+      const m = col.modes.find(x => x.name === s.modos[i]); if (!m) return;
+      const modo = m.modeId;
       let valor;
       if (bruto.startsWith('@')) {
         const [cod, ...resto] = bruto.slice(1).split(':');
@@ -58,4 +63,4 @@ for (const s of secoes) {
   }
 }
 const resumo = secoes.map(s => s.nome + ': ' + s.vars.length);
-return { resumo, total: secoes.reduce((n, s) => n + s.vars.length, 0), erros };
+return { resumo, total: secoes.reduce((n, s) => n + s.vars.length, 0), erros, modoUnico: modosNaoCriados.length > 0, modosNaoCriados };

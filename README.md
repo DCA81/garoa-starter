@@ -20,7 +20,16 @@ Ele também traz o **Guardião do Garoa**: as regras e a estrutura do Garoa, que
 2. **Figma conectado ao Claude.** O plugin já traz a conexão; na primeira vez, o Claude pede para você entrar na sua conta do Figma.
 3. **Fonte de ícones instalada:** os ícones do DS usam a fonte gratuita **Material Symbols Rounded**, do Google Fonts. O plugin confere se ela existe no seu Figma e, se faltar, ensina a instalar em 5 passos.
 
-Plano do Figma: no gratuito, o DS funciona dentro de um único arquivo. Para usá-lo como biblioteca em outros arquivos, é preciso um plano pago do Figma.
+### Plano do Figma: o que muda
+
+| | Plano gratuito (Starter) | Plano pago (Professional ou acima) |
+| --- | --- | --- |
+| Modo claro | Sim | Sim |
+| **Modo escuro** | **Não** (o Figma gratuito só permite um modo por coleção de variáveis) | Sim |
+| Tamanhos de texto | Só desktop | Celular, tablet e desktop |
+| Usar como biblioteca em outros arquivos | Não | Sim |
+
+No plano gratuito o plugin avisa antes de começar e cria o DS só no modo claro. Se a empresa assinar o plano pago depois, peça ao Claude "ativar o modo escuro do meu DS" e ele acrescenta o escuro sem refazer o resto.
 
 ## Instalar
 
@@ -54,4 +63,4 @@ MIT © 2026 Daniel da Costa Alexandre. Você pode usar, copiar e modificar, incl
 ## Links
 
 - Site do Garoa: https://garoa-design-system.vercel.app
-- Versão: 0.2.0
+- Versão: 0.2.1

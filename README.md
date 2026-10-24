@@ -63,4 +63,4 @@ MIT © 2026 Daniel da Costa Alexandre. Você pode usar, copiar e modificar, incl
 ## Links
 
 - Site do Garoa: https://garoa-design-system.vercel.app
-- Versão: 0.2.1
+- Versão: 0.2.2

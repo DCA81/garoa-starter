@@ -1,7 +1,7 @@
 {
   "name": "garoa-starter",
   "displayName": "Garoa Starter",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Cria o design system da sua empresa no Figma a partir do Garoa: perguntas simples e um arquivo novo nos seus rascunhos, com tokens, estilos e componentes já na sua marca. Também valida e cria componentes.",
   "author": {
     "name": "Daniel Costa"

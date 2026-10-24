@@ -7,7 +7,8 @@
     {
       "name": "garoa-starter",
       "source": "./",
-      "description": "Cria o design system da sua empresa no Figma a partir do Garoa."
+      "description": "Cria o design system da sua empresa num arquivo novo do Figma, a partir do Garoa, sem duplicar nada.",
+      "version": "0.2.2"
     }
   ],
   "description": "Plugins do Garoa, o design system de Daniel Costa."
